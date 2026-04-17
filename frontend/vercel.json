@@ -1,0 +1,11 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "regions": ["bom1"],
+  "functions": {
+    "src/app/api/ask/route.ts": {
+      "maxDuration": 60
+    }
+  }
+}

@@ -1,0 +1,2546 @@
+2026-03-05 17:24:54 | INFO     | Books to scrape : ['iso']
+2026-03-05 17:24:54 | INFO     | Request delay   : 1.5s
+2026-03-05 17:24:54 | INFO     | Resume mode     : True
+2026-03-05 17:24:54 | INFO     | 
+2026-03-05 17:24:54 | INFO     | ============================================================
+2026-03-05 17:24:54 | INFO     | Starting scrape: Sri Isopanishad
+2026-03-05 17:24:54 | INFO     | ============================================================
+2026-03-05 17:24:55 | INFO     | Fetching ISO 0 → https://vedabase.io/en/library/iso/0/
+2026-03-05 17:24:55 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/iso/0/
+2026-03-05 17:24:56 | WARNING  | Attempt 1/3 failed for fetch_with_requests: 404 Client Error: Not Found for url: https://vedabase.io/en/library/iso/0/. Retrying in 5s...
+2026-03-05 17:25:02 | WARNING  | Attempt 2/3 failed for fetch_with_requests: 404 Client Error: Not Found for url: https://vedabase.io/en/library/iso/0/. Retrying in 10s...
+2026-03-05 17:25:13 | WARNING  | Attempt 3/3 failed for fetch_with_requests: 404 Client Error: Not Found for url: https://vedabase.io/en/library/iso/0/. Retrying in 15s...
+2026-03-05 17:25:28 | ERROR    | All 3 attempts failed for fetch_with_requests: 404 Client Error: Not Found for url: https://vedabase.io/en/library/iso/0/
+2026-03-05 17:25:28 | WARNING  | requests failed entirely for https://vedabase.io/en/library/iso/0/, trying Playwright...
+2026-03-05 17:25:49 | DEBUG    | Saved raw HTML → data/raw\iso\iso_0.html
+2026-03-05 17:25:49 | WARNING  | [iso] d1=0 d2=None — translation not found. Page may need Playwright or selector update.
+2026-03-05 17:25:49 | WARNING  | Content missing for iso_0 — translation empty.
+2026-03-05 17:25:49 | WARNING  |   ✗ ISO 0 — incomplete
+2026-03-05 17:25:49 | INFO     | Fetching ISO 1 → https://vedabase.io/en/library/iso/1/
+2026-03-05 17:25:49 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/iso/1/
+2026-03-05 17:25:49 | DEBUG    | Saved raw HTML → data/raw\iso\iso_1.html
+2026-03-05 17:25:49 | DEBUG    |   ✓ ISO 1
+2026-03-05 17:25:49 | INFO     | Fetching ISO 2 → https://vedabase.io/en/library/iso/2/
+2026-03-05 17:25:49 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/iso/2/
+2026-03-05 17:25:51 | DEBUG    | Saved raw HTML → data/raw\iso\iso_2.html
+2026-03-05 17:25:51 | DEBUG    |   ✓ ISO 2
+2026-03-05 17:25:51 | INFO     | Fetching ISO 3 → https://vedabase.io/en/library/iso/3/
+2026-03-05 17:25:51 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/iso/3/
+2026-03-05 17:25:53 | DEBUG    | Saved raw HTML → data/raw\iso\iso_3.html
+2026-03-05 17:25:53 | DEBUG    |   ✓ ISO 3
+2026-03-05 17:25:53 | INFO     | Fetching ISO 4 → https://vedabase.io/en/library/iso/4/
+2026-03-05 17:25:53 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/iso/4/
+2026-03-05 17:25:54 | DEBUG    | Saved raw HTML → data/raw\iso\iso_4.html
+2026-03-05 17:25:54 | DEBUG    |   ✓ ISO 4
+2026-03-05 17:25:54 | INFO     | Fetching ISO 5 → https://vedabase.io/en/library/iso/5/
+2026-03-05 17:25:54 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/iso/5/
+2026-03-05 17:25:56 | DEBUG    | Saved raw HTML → data/raw\iso\iso_5.html
+2026-03-05 17:25:56 | DEBUG    |   ✓ ISO 5
+2026-03-05 17:25:56 | INFO     | Fetching ISO 6 → https://vedabase.io/en/library/iso/6/
+2026-03-05 17:25:56 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/iso/6/
+2026-03-05 17:25:57 | DEBUG    | Saved raw HTML → data/raw\iso\iso_6.html
+2026-03-05 17:25:57 | DEBUG    |   ✓ ISO 6
+2026-03-05 17:25:57 | INFO     | Fetching ISO 7 → https://vedabase.io/en/library/iso/7/
+2026-03-05 17:25:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/iso/7/
+2026-03-05 17:25:59 | DEBUG    | Saved raw HTML → data/raw\iso\iso_7.html
+2026-03-05 17:25:59 | DEBUG    |   ✓ ISO 7
+2026-03-05 17:25:59 | INFO     | Fetching ISO 8 → https://vedabase.io/en/library/iso/8/
+2026-03-05 17:25:59 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/iso/8/
+2026-03-05 17:26:00 | DEBUG    | Saved raw HTML → data/raw\iso\iso_8.html
+2026-03-05 17:26:00 | DEBUG    |   ✓ ISO 8
+2026-03-05 17:26:00 | INFO     | Fetching ISO 9 → https://vedabase.io/en/library/iso/9/
+2026-03-05 17:26:00 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/iso/9/
+2026-03-05 17:26:02 | DEBUG    | Saved raw HTML → data/raw\iso\iso_9.html
+2026-03-05 17:26:02 | DEBUG    |   ✓ ISO 9
+2026-03-05 17:26:02 | INFO     | Fetching ISO 10 → https://vedabase.io/en/library/iso/10/
+2026-03-05 17:26:02 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/iso/10/
+2026-03-05 17:26:03 | DEBUG    | Saved raw HTML → data/raw\iso\iso_10.html
+2026-03-05 17:26:03 | DEBUG    |   ✓ ISO 10
+2026-03-05 17:26:03 | INFO     | Fetching ISO 11 → https://vedabase.io/en/library/iso/11/
+2026-03-05 17:26:03 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/iso/11/
+2026-03-05 17:26:05 | DEBUG    | Saved raw HTML → data/raw\iso\iso_11.html
+2026-03-05 17:26:05 | DEBUG    |   ✓ ISO 11
+2026-03-05 17:26:05 | INFO     | Fetching ISO 12 → https://vedabase.io/en/library/iso/12/
+2026-03-05 17:26:05 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/iso/12/
+2026-03-05 17:26:06 | DEBUG    | Saved raw HTML → data/raw\iso\iso_12.html
+2026-03-05 17:26:06 | DEBUG    |   ✓ ISO 12
+2026-03-05 17:26:06 | INFO     | Fetching ISO 13 → https://vedabase.io/en/library/iso/13/
+2026-03-05 17:26:06 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/iso/13/
+2026-03-05 17:26:08 | DEBUG    | Saved raw HTML → data/raw\iso\iso_13.html
+2026-03-05 17:26:08 | DEBUG    |   ✓ ISO 13
+2026-03-05 17:26:08 | INFO     | Fetching ISO 14 → https://vedabase.io/en/library/iso/14/
+2026-03-05 17:26:08 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/iso/14/
+2026-03-05 17:26:09 | DEBUG    | Saved raw HTML → data/raw\iso\iso_14.html
+2026-03-05 17:26:09 | DEBUG    |   ✓ ISO 14
+2026-03-05 17:26:09 | INFO     | Fetching ISO 15 → https://vedabase.io/en/library/iso/15/
+2026-03-05 17:26:09 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/iso/15/
+2026-03-05 17:26:10 | DEBUG    | Saved raw HTML → data/raw\iso\iso_15.html
+2026-03-05 17:26:10 | DEBUG    |   ✓ ISO 15
+2026-03-05 17:26:10 | INFO     | Fetching ISO 16 → https://vedabase.io/en/library/iso/16/
+2026-03-05 17:26:10 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/iso/16/
+2026-03-05 17:26:12 | DEBUG    | Saved raw HTML → data/raw\iso\iso_16.html
+2026-03-05 17:26:12 | DEBUG    |   ✓ ISO 16
+2026-03-05 17:26:12 | INFO     | Fetching ISO 17 → https://vedabase.io/en/library/iso/17/
+2026-03-05 17:26:12 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/iso/17/
+2026-03-05 17:26:14 | DEBUG    | Saved raw HTML → data/raw\iso\iso_17.html
+2026-03-05 17:26:14 | DEBUG    |   ✓ ISO 17
+2026-03-05 17:26:14 | INFO     | Fetching ISO 18 → https://vedabase.io/en/library/iso/18/
+2026-03-05 17:26:14 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/iso/18/
+2026-03-05 17:26:15 | DEBUG    | Saved raw HTML → data/raw\iso\iso_18.html
+2026-03-05 17:26:15 | DEBUG    |   ✓ ISO 18
+2026-03-05 17:26:15 | INFO     | 
+============================================================
+2026-03-05 17:26:15 | INFO     | Sri Isopanishad scrape complete.
+2026-03-05 17:26:15 | INFO     |   Total verses attempted : 19
+2026-03-05 17:26:15 | INFO     |   Successfully scraped   : 19
+2026-03-05 17:26:15 | INFO     |   Failed                 : 0
+2026-03-05 17:26:15 | INFO     | ============================================================
+
+2026-03-05 17:26:15 | INFO     | Saved 19 records → data/scraped\iso_raw.json
+2026-03-05 17:26:15 | INFO     | ============================================================
+2026-03-05 17:26:15 | INFO     | ALL SCRAPING COMPLETE
+2026-03-05 17:26:15 | INFO     |   Sri Isopanishad                     19 records
+2026-03-05 17:26:15 | INFO     | ============================================================
+2026-03-05 17:42:13 | INFO     | Books to scrape : ['noi']
+2026-03-05 17:42:13 | INFO     | Request delay   : 1.5s
+2026-03-05 17:42:13 | INFO     | Resume mode     : True
+2026-03-05 17:42:13 | INFO     | 
+2026-03-05 17:42:13 | INFO     | ============================================================
+2026-03-05 17:42:13 | INFO     | Starting scrape: Nectar of Instruction
+2026-03-05 17:42:13 | INFO     | ============================================================
+2026-03-05 17:42:13 | INFO     | Fetching NOI 1 → https://vedabase.io/en/library/noi/1/
+2026-03-05 17:42:13 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/noi/1/
+2026-03-05 17:42:14 | DEBUG    | Saved raw HTML → data/raw\noi\noi_1.html
+2026-03-05 17:42:14 | DEBUG    |   ✓ NOI 1
+2026-03-05 17:42:14 | INFO     | Fetching NOI 2 → https://vedabase.io/en/library/noi/2/
+2026-03-05 17:42:14 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/noi/2/
+2026-03-05 17:42:15 | DEBUG    | Saved raw HTML → data/raw\noi\noi_2.html
+2026-03-05 17:42:15 | DEBUG    |   ✓ NOI 2
+2026-03-05 17:42:15 | INFO     | Fetching NOI 3 → https://vedabase.io/en/library/noi/3/
+2026-03-05 17:42:15 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/noi/3/
+2026-03-05 17:42:17 | DEBUG    | Saved raw HTML → data/raw\noi\noi_3.html
+2026-03-05 17:42:17 | DEBUG    |   ✓ NOI 3
+2026-03-05 17:42:17 | INFO     | Fetching NOI 4 → https://vedabase.io/en/library/noi/4/
+2026-03-05 17:42:17 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/noi/4/
+2026-03-05 17:42:18 | DEBUG    | Saved raw HTML → data/raw\noi\noi_4.html
+2026-03-05 17:42:18 | DEBUG    |   ✓ NOI 4
+2026-03-05 17:42:18 | INFO     | Fetching NOI 5 → https://vedabase.io/en/library/noi/5/
+2026-03-05 17:42:18 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/noi/5/
+2026-03-05 17:42:20 | DEBUG    | Saved raw HTML → data/raw\noi\noi_5.html
+2026-03-05 17:42:20 | DEBUG    |   ✓ NOI 5
+2026-03-05 17:42:20 | INFO     | Fetching NOI 6 → https://vedabase.io/en/library/noi/6/
+2026-03-05 17:42:20 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/noi/6/
+2026-03-05 17:42:21 | DEBUG    | Saved raw HTML → data/raw\noi\noi_6.html
+2026-03-05 17:42:21 | DEBUG    |   ✓ NOI 6
+2026-03-05 17:42:21 | INFO     | Fetching NOI 7 → https://vedabase.io/en/library/noi/7/
+2026-03-05 17:42:21 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/noi/7/
+2026-03-05 17:42:23 | DEBUG    | Saved raw HTML → data/raw\noi\noi_7.html
+2026-03-05 17:42:23 | DEBUG    |   ✓ NOI 7
+2026-03-05 17:42:23 | INFO     | Fetching NOI 8 → https://vedabase.io/en/library/noi/8/
+2026-03-05 17:42:23 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/noi/8/
+2026-03-05 17:42:24 | DEBUG    | Saved raw HTML → data/raw\noi\noi_8.html
+2026-03-05 17:42:24 | DEBUG    |   ✓ NOI 8
+2026-03-05 17:42:24 | INFO     | Fetching NOI 9 → https://vedabase.io/en/library/noi/9/
+2026-03-05 17:42:24 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/noi/9/
+2026-03-05 17:42:26 | DEBUG    | Saved raw HTML → data/raw\noi\noi_9.html
+2026-03-05 17:42:26 | DEBUG    |   ✓ NOI 9
+2026-03-05 17:42:26 | INFO     | Fetching NOI 10 → https://vedabase.io/en/library/noi/10/
+2026-03-05 17:42:26 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/noi/10/
+2026-03-05 17:42:27 | DEBUG    | Saved raw HTML → data/raw\noi\noi_10.html
+2026-03-05 17:42:27 | DEBUG    |   ✓ NOI 10
+2026-03-05 17:42:27 | INFO     | Fetching NOI 11 → https://vedabase.io/en/library/noi/11/
+2026-03-05 17:42:27 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/noi/11/
+2026-03-05 17:42:29 | DEBUG    | Saved raw HTML → data/raw\noi\noi_11.html
+2026-03-05 17:42:29 | DEBUG    |   ✓ NOI 11
+2026-03-05 17:42:29 | INFO     | 
+============================================================
+2026-03-05 17:42:29 | INFO     | Nectar of Instruction scrape complete.
+2026-03-05 17:42:29 | INFO     |   Total verses attempted : 11
+2026-03-05 17:42:29 | INFO     |   Successfully scraped   : 11
+2026-03-05 17:42:29 | INFO     |   Failed                 : 0
+2026-03-05 17:42:29 | INFO     | ============================================================
+
+2026-03-05 17:42:29 | INFO     | Saved 11 records → data/scraped\noi_raw.json
+2026-03-05 17:42:29 | INFO     | ============================================================
+2026-03-05 17:42:29 | INFO     | ALL SCRAPING COMPLETE
+2026-03-05 17:42:29 | INFO     |   Nectar of Instruction               11 records
+2026-03-05 17:42:29 | INFO     | ============================================================
+2026-03-05 17:44:05 | INFO     | Books to scrape : ['bg']
+2026-03-05 17:44:05 | INFO     | Request delay   : 1.5s
+2026-03-05 17:44:05 | INFO     | Resume mode     : True
+2026-03-05 17:44:05 | INFO     | 
+2026-03-05 17:44:05 | INFO     | ============================================================
+2026-03-05 17:44:05 | INFO     | Starting scrape: Bhagavad Gita As It Is
+2026-03-05 17:44:05 | INFO     | ============================================================
+2026-03-05 17:44:05 | INFO     | Fetching BG 1.1 → https://vedabase.io/en/library/bg/1/1/
+2026-03-05 17:44:05 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/1/
+2026-03-05 17:44:06 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_1.html
+2026-03-05 17:44:06 | DEBUG    |   ✓ BG 1.1
+2026-03-05 17:44:06 | INFO     | Fetching BG 1.2 → https://vedabase.io/en/library/bg/1/2/
+2026-03-05 17:44:06 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/2/
+2026-03-05 17:44:07 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_2.html
+2026-03-05 17:44:07 | DEBUG    |   ✓ BG 1.2
+2026-03-05 17:44:07 | INFO     | Fetching BG 1.3 → https://vedabase.io/en/library/bg/1/3/
+2026-03-05 17:44:07 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/3/
+2026-03-05 17:44:08 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_3.html
+2026-03-05 17:44:08 | DEBUG    |   ✓ BG 1.3
+2026-03-05 17:44:08 | INFO     | Fetching BG 1.4 → https://vedabase.io/en/library/bg/1/4/
+2026-03-05 17:44:08 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/4/
+2026-03-05 17:44:10 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_4.html
+2026-03-05 17:44:10 | DEBUG    |   ✓ BG 1.4
+2026-03-05 17:44:10 | INFO     | Fetching BG 1.5 → https://vedabase.io/en/library/bg/1/5/
+2026-03-05 17:44:10 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/5/
+2026-03-05 17:44:12 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_5.html
+2026-03-05 17:44:12 | DEBUG    |   ✓ BG 1.5
+2026-03-05 17:44:12 | INFO     | Fetching BG 1.6 → https://vedabase.io/en/library/bg/1/6/
+2026-03-05 17:44:12 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/6/
+2026-03-05 17:44:13 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_6.html
+2026-03-05 17:44:13 | DEBUG    |   ✓ BG 1.6
+2026-03-05 17:44:13 | INFO     | Fetching BG 1.7 → https://vedabase.io/en/library/bg/1/7/
+2026-03-05 17:44:13 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/7/
+2026-03-05 17:44:15 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_7.html
+2026-03-05 17:44:15 | DEBUG    |   ✓ BG 1.7
+2026-03-05 17:44:15 | INFO     | Fetching BG 1.8 → https://vedabase.io/en/library/bg/1/8/
+2026-03-05 17:44:15 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/8/
+2026-03-05 17:44:16 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_8.html
+2026-03-05 17:44:16 | DEBUG    |   ✓ BG 1.8
+2026-03-05 17:44:16 | INFO     | Fetching BG 1.9 → https://vedabase.io/en/library/bg/1/9/
+2026-03-05 17:44:16 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/9/
+2026-03-05 17:44:18 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_9.html
+2026-03-05 17:44:18 | DEBUG    |   ✓ BG 1.9
+2026-03-05 17:44:18 | INFO     | Fetching BG 1.10 → https://vedabase.io/en/library/bg/1/10/
+2026-03-05 17:44:18 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/10/
+2026-03-05 17:44:19 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_10.html
+2026-03-05 17:44:19 | DEBUG    |   ✓ BG 1.10
+2026-03-05 17:44:19 | INFO     | Fetching BG 1.11 → https://vedabase.io/en/library/bg/1/11/
+2026-03-05 17:44:19 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/11/
+2026-03-05 17:44:21 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_11.html
+2026-03-05 17:44:21 | DEBUG    |   ✓ BG 1.11
+2026-03-05 17:44:21 | INFO     | Fetching BG 1.12 → https://vedabase.io/en/library/bg/1/12/
+2026-03-05 17:44:21 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/12/
+2026-03-05 17:44:22 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_12.html
+2026-03-05 17:44:22 | DEBUG    |   ✓ BG 1.12
+2026-03-05 17:44:22 | INFO     | Fetching BG 1.13 → https://vedabase.io/en/library/bg/1/13/
+2026-03-05 17:44:22 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/13/
+2026-03-05 17:44:24 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_13.html
+2026-03-05 17:44:24 | DEBUG    |   ✓ BG 1.13
+2026-03-05 17:44:24 | INFO     | Fetching BG 1.14 → https://vedabase.io/en/library/bg/1/14/
+2026-03-05 17:44:24 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/14/
+2026-03-05 17:44:25 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_14.html
+2026-03-05 17:44:25 | DEBUG    |   ✓ BG 1.14
+2026-03-05 17:44:25 | INFO     | Fetching BG 1.15 → https://vedabase.io/en/library/bg/1/15/
+2026-03-05 17:44:25 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/15/
+2026-03-05 17:44:27 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_15.html
+2026-03-05 17:44:27 | DEBUG    |   ✓ BG 1.15
+2026-03-05 17:44:27 | INFO     | Fetching BG 1.16 → https://vedabase.io/en/library/bg/1/16/
+2026-03-05 17:44:27 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/16/
+2026-03-05 17:44:28 | WARNING  | Attempt 1/3 failed for fetch_with_requests: 404 Client Error: Not Found for url: https://vedabase.io/en/library/bg/1/16/. Retrying in 5s...
+2026-03-05 17:44:34 | WARNING  | Attempt 2/3 failed for fetch_with_requests: 404 Client Error: Not Found for url: https://vedabase.io/en/library/bg/1/16/. Retrying in 10s...
+2026-03-05 17:44:45 | WARNING  | Attempt 3/3 failed for fetch_with_requests: 404 Client Error: Not Found for url: https://vedabase.io/en/library/bg/1/16/. Retrying in 15s...
+2026-03-05 17:45:00 | ERROR    | All 3 attempts failed for fetch_with_requests: 404 Client Error: Not Found for url: https://vedabase.io/en/library/bg/1/16/
+2026-03-05 17:45:00 | WARNING  | requests failed entirely for https://vedabase.io/en/library/bg/1/16/, trying Playwright...
+2026-03-05 17:45:21 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_16.html
+2026-03-05 17:45:21 | WARNING  | [bg] d1=1 d2=16 — translation not found. Page may need Playwright or selector update.
+2026-03-05 17:45:21 | WARNING  | Content missing for bg_1_16 — translation empty.
+2026-03-05 17:45:21 | WARNING  |   ✗ BG 1.16 — incomplete
+2026-03-05 17:45:21 | INFO     | Fetching BG 1.17 → https://vedabase.io/en/library/bg/1/17/
+2026-03-05 17:45:21 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/17/
+2026-03-05 17:45:22 | WARNING  | Attempt 1/3 failed for fetch_with_requests: 404 Client Error: Not Found for url: https://vedabase.io/en/library/bg/1/17/. Retrying in 5s...
+2026-03-05 17:45:28 | WARNING  | Attempt 2/3 failed for fetch_with_requests: 404 Client Error: Not Found for url: https://vedabase.io/en/library/bg/1/17/. Retrying in 10s...
+2026-03-06 16:00:28 | INFO     | Books to scrape : ['bg']
+2026-03-06 16:00:28 | INFO     | Request delay   : 1.5s
+2026-03-06 16:00:28 | INFO     | Resume mode     : True
+2026-03-06 16:00:28 | INFO     | 
+2026-03-06 16:00:28 | INFO     | ============================================================
+2026-03-06 16:00:28 | INFO     | Starting scrape: Bhagavad Gita As It Is
+2026-03-06 16:00:28 | INFO     | ============================================================
+2026-03-06 16:00:28 | INFO     | Fetching chapter index: https://vedabase.io/en/library/bg/1/
+2026-03-06 16:00:28 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/
+2026-03-06 16:00:29 | INFO     |   Chapter 1: found 39 verse URLs
+2026-03-06 16:00:29 | INFO     | Fetching chapter index: https://vedabase.io/en/library/bg/2/
+2026-03-06 16:00:29 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/
+2026-03-06 16:00:30 | INFO     |   Chapter 2: found 71 verse URLs
+2026-03-06 16:00:30 | INFO     | Fetching chapter index: https://vedabase.io/en/library/bg/3/
+2026-03-06 16:00:30 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/
+2026-03-06 16:00:31 | INFO     |   Chapter 3: found 43 verse URLs
+2026-03-06 16:00:31 | INFO     | Fetching chapter index: https://vedabase.io/en/library/bg/4/
+2026-03-06 16:00:31 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/
+2026-03-06 16:00:33 | INFO     |   Chapter 4: found 42 verse URLs
+2026-03-06 16:00:33 | INFO     | Fetching chapter index: https://vedabase.io/en/library/bg/5/
+2026-03-06 16:00:33 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/
+2026-03-06 16:00:34 | INFO     |   Chapter 5: found 27 verse URLs
+2026-03-06 16:00:34 | INFO     | Fetching chapter index: https://vedabase.io/en/library/bg/6/
+2026-03-06 16:00:34 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/
+2026-03-06 16:00:36 | INFO     |   Chapter 6: found 42 verse URLs
+2026-03-06 16:00:36 | INFO     | Fetching chapter index: https://vedabase.io/en/library/bg/7/
+2026-03-06 16:00:36 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/
+2026-03-06 16:00:38 | INFO     |   Chapter 7: found 30 verse URLs
+2026-03-06 16:00:38 | INFO     | Fetching chapter index: https://vedabase.io/en/library/bg/8/
+2026-03-06 16:00:38 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/
+2026-03-06 16:00:39 | INFO     |   Chapter 8: found 28 verse URLs
+2026-03-06 16:00:39 | INFO     | Fetching chapter index: https://vedabase.io/en/library/bg/9/
+2026-03-06 16:00:39 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/
+2026-03-06 16:00:41 | INFO     |   Chapter 9: found 34 verse URLs
+2026-03-06 16:00:41 | INFO     | Fetching chapter index: https://vedabase.io/en/library/bg/10/
+2026-03-06 16:00:41 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/
+2026-03-06 16:00:42 | INFO     |   Chapter 10: found 40 verse URLs
+2026-03-06 16:00:42 | INFO     | Fetching chapter index: https://vedabase.io/en/library/bg/11/
+2026-03-06 16:00:42 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/
+2026-03-06 16:00:44 | INFO     |   Chapter 11: found 52 verse URLs
+2026-03-06 16:00:44 | INFO     | Fetching chapter index: https://vedabase.io/en/library/bg/12/
+2026-03-06 16:00:44 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/12/
+2026-03-06 16:00:45 | INFO     |   Chapter 12: found 16 verse URLs
+2026-03-06 16:00:45 | INFO     | Fetching chapter index: https://vedabase.io/en/library/bg/13/
+2026-03-06 16:00:45 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/
+2026-03-06 16:00:47 | INFO     |   Chapter 13: found 29 verse URLs
+2026-03-06 16:00:47 | INFO     | Fetching chapter index: https://vedabase.io/en/library/bg/14/
+2026-03-06 16:00:47 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/
+2026-03-06 16:00:48 | INFO     |   Chapter 14: found 24 verse URLs
+2026-03-06 16:00:48 | INFO     | Fetching chapter index: https://vedabase.io/en/library/bg/15/
+2026-03-06 16:00:48 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/
+2026-03-06 16:00:50 | INFO     |   Chapter 15: found 19 verse URLs
+2026-03-06 16:00:50 | INFO     | Fetching chapter index: https://vedabase.io/en/library/bg/16/
+2026-03-06 16:00:50 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/
+2026-03-06 16:00:51 | INFO     |   Chapter 16: found 19 verse URLs
+2026-03-06 16:00:51 | INFO     | Fetching chapter index: https://vedabase.io/en/library/bg/17/
+2026-03-06 16:00:51 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/
+2026-03-06 16:00:53 | INFO     |   Chapter 17: found 26 verse URLs
+2026-03-06 16:00:53 | INFO     | Fetching chapter index: https://vedabase.io/en/library/bg/18/
+2026-03-06 16:00:53 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/
+2026-03-06 16:00:55 | INFO     |   Chapter 18: found 76 verse URLs
+2026-03-06 16:00:55 | INFO     | Total BG verse pages found: 657
+2026-03-06 16:00:55 | DEBUG    | Cache hit: data/raw\bg\bg_1_1.html
+2026-03-06 16:00:55 | DEBUG    |   ✓ BG 1.1
+2026-03-06 16:00:55 | DEBUG    | Cache hit: data/raw\bg\bg_1_2.html
+2026-03-06 16:00:55 | DEBUG    |   ✓ BG 1.2
+2026-03-06 16:00:55 | DEBUG    | Cache hit: data/raw\bg\bg_1_3.html
+2026-03-06 16:00:55 | DEBUG    |   ✓ BG 1.3
+2026-03-06 16:00:55 | DEBUG    | Cache hit: data/raw\bg\bg_1_4.html
+2026-03-06 16:00:55 | DEBUG    |   ✓ BG 1.4
+2026-03-06 16:00:55 | DEBUG    | Cache hit: data/raw\bg\bg_1_5.html
+2026-03-06 16:00:55 | DEBUG    |   ✓ BG 1.5
+2026-03-06 16:00:55 | DEBUG    | Cache hit: data/raw\bg\bg_1_6.html
+2026-03-06 16:00:55 | DEBUG    |   ✓ BG 1.6
+2026-03-06 16:00:55 | DEBUG    | Cache hit: data/raw\bg\bg_1_7.html
+2026-03-06 16:00:55 | DEBUG    |   ✓ BG 1.7
+2026-03-06 16:00:55 | DEBUG    | Cache hit: data/raw\bg\bg_1_8.html
+2026-03-06 16:00:56 | DEBUG    |   ✓ BG 1.8
+2026-03-06 16:00:56 | DEBUG    | Cache hit: data/raw\bg\bg_1_9.html
+2026-03-06 16:00:57 | DEBUG    |   ✓ BG 1.9
+2026-03-06 16:00:57 | DEBUG    | Cache hit: data/raw\bg\bg_1_10.html
+2026-03-06 16:00:57 | DEBUG    |   ✓ BG 1.10
+2026-03-06 16:00:57 | DEBUG    | Cache hit: data/raw\bg\bg_1_11.html
+2026-03-06 16:00:57 | DEBUG    |   ✓ BG 1.11
+2026-03-06 16:00:57 | DEBUG    | Cache hit: data/raw\bg\bg_1_12.html
+2026-03-06 16:00:57 | DEBUG    |   ✓ BG 1.12
+2026-03-06 16:00:57 | DEBUG    | Cache hit: data/raw\bg\bg_1_13.html
+2026-03-06 16:00:57 | DEBUG    |   ✓ BG 1.13
+2026-03-06 16:00:57 | DEBUG    | Cache hit: data/raw\bg\bg_1_14.html
+2026-03-06 16:00:57 | DEBUG    |   ✓ BG 1.14
+2026-03-06 16:00:57 | DEBUG    | Cache hit: data/raw\bg\bg_1_15.html
+2026-03-06 16:00:57 | DEBUG    |   ✓ BG 1.15
+2026-03-06 16:00:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/16-18/
+2026-03-06 16:00:58 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_16-18.html
+2026-03-06 16:00:58 | DEBUG    |   ✓ BG 1.16-18
+2026-03-06 16:00:58 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/19/
+2026-03-06 16:00:59 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_19.html
+2026-03-06 16:00:59 | DEBUG    |   ✓ BG 1.19
+2026-03-06 16:00:59 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/20/
+2026-03-06 16:01:01 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_20.html
+2026-03-06 16:01:01 | DEBUG    |   ✓ BG 1.20
+2026-03-06 16:01:01 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/21-22/
+2026-03-06 16:01:02 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_21-22.html
+2026-03-06 16:01:02 | DEBUG    |   ✓ BG 1.21-22
+2026-03-06 16:01:02 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/23/
+2026-03-06 16:01:04 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_23.html
+2026-03-06 16:01:04 | DEBUG    |   ✓ BG 1.23
+2026-03-06 16:01:04 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/24/
+2026-03-06 16:01:05 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_24.html
+2026-03-06 16:01:05 | DEBUG    |   ✓ BG 1.24
+2026-03-06 16:01:05 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/25/
+2026-03-06 16:01:07 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_25.html
+2026-03-06 16:01:07 | DEBUG    |   ✓ BG 1.25
+2026-03-06 16:01:07 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/26/
+2026-03-06 16:01:08 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_26.html
+2026-03-06 16:01:08 | DEBUG    |   ✓ BG 1.26
+2026-03-06 16:01:08 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/27/
+2026-03-06 16:01:10 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_27.html
+2026-03-06 16:01:10 | DEBUG    |   ✓ BG 1.27
+2026-03-06 16:01:10 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/28/
+2026-03-06 16:01:11 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_28.html
+2026-03-06 16:01:11 | DEBUG    |   ✓ BG 1.28
+2026-03-06 16:01:11 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/29/
+2026-03-06 16:01:13 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_29.html
+2026-03-06 16:01:13 | DEBUG    |   ✓ BG 1.29
+2026-03-06 16:01:13 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/30/
+2026-03-06 16:01:15 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_30.html
+2026-03-06 16:01:15 | DEBUG    |   ✓ BG 1.30
+2026-03-06 16:01:15 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/31/
+2026-03-06 16:01:16 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_31.html
+2026-03-06 16:01:16 | DEBUG    |   ✓ BG 1.31
+2026-03-06 16:01:16 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/32-35/
+2026-03-06 16:01:17 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_32-35.html
+2026-03-06 16:01:17 | DEBUG    |   ✓ BG 1.32-35
+2026-03-06 16:01:17 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/36/
+2026-03-06 16:01:19 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_36.html
+2026-03-06 16:01:19 | DEBUG    |   ✓ BG 1.36
+2026-03-06 16:01:19 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/37-38/
+2026-03-06 16:01:21 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_37-38.html
+2026-03-06 16:01:21 | DEBUG    |   ✓ BG 1.37-38
+2026-03-06 16:01:21 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/39/
+2026-03-06 16:01:22 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_39.html
+2026-03-06 16:01:22 | DEBUG    |   ✓ BG 1.39
+2026-03-06 16:01:22 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/40/
+2026-03-06 16:01:24 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_40.html
+2026-03-06 16:01:24 | DEBUG    |   ✓ BG 1.40
+2026-03-06 16:01:24 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/41/
+2026-03-06 16:01:25 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_41.html
+2026-03-06 16:01:25 | DEBUG    |   ✓ BG 1.41
+2026-03-06 16:01:25 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/42/
+2026-03-06 16:01:27 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_42.html
+2026-03-06 16:01:27 | DEBUG    |   ✓ BG 1.42
+2026-03-06 16:01:27 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/43/
+2026-03-06 16:01:28 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_43.html
+2026-03-06 16:01:28 | DEBUG    |   ✓ BG 1.43
+2026-03-06 16:01:28 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/44/
+2026-03-06 16:01:30 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_44.html
+2026-03-06 16:01:30 | DEBUG    |   ✓ BG 1.44
+2026-03-06 16:01:30 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/45/
+2026-03-06 16:01:31 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_45.html
+2026-03-06 16:01:31 | DEBUG    |   ✓ BG 1.45
+2026-03-06 16:01:31 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/1/46/
+2026-03-06 16:01:33 | DEBUG    | Saved raw HTML → data/raw\bg\bg_1_46.html
+2026-03-06 16:01:33 | DEBUG    |   ✓ BG 1.46
+2026-03-06 16:01:33 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/1/
+2026-03-06 16:01:34 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_1.html
+2026-03-06 16:01:34 | DEBUG    |   ✓ BG 2.1
+2026-03-06 16:01:34 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/2/
+2026-03-06 16:01:36 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_2.html
+2026-03-06 16:01:36 | DEBUG    |   ✓ BG 2.2
+2026-03-06 16:01:36 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/3/
+2026-03-06 16:01:37 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_3.html
+2026-03-06 16:01:37 | DEBUG    |   ✓ BG 2.3
+2026-03-06 16:01:37 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/4/
+2026-03-06 16:01:39 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_4.html
+2026-03-06 16:01:39 | DEBUG    |   ✓ BG 2.4
+2026-03-06 16:01:39 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/5/
+2026-03-06 16:01:41 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_5.html
+2026-03-06 16:01:41 | DEBUG    |   ✓ BG 2.5
+2026-03-06 16:01:41 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/6/
+2026-03-06 16:01:42 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_6.html
+2026-03-06 16:01:42 | DEBUG    |   ✓ BG 2.6
+2026-03-06 16:01:42 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/7/
+2026-03-06 16:01:43 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_7.html
+2026-03-06 16:01:43 | DEBUG    |   ✓ BG 2.7
+2026-03-06 16:01:43 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/8/
+2026-03-06 16:01:45 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_8.html
+2026-03-06 16:01:45 | DEBUG    |   ✓ BG 2.8
+2026-03-06 16:01:45 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/9/
+2026-03-06 16:01:46 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_9.html
+2026-03-06 16:01:46 | DEBUG    |   ✓ BG 2.9
+2026-03-06 16:01:46 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/10/
+2026-03-06 16:01:48 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_10.html
+2026-03-06 16:01:48 | DEBUG    |   ✓ BG 2.10
+2026-03-06 16:01:48 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/11/
+2026-03-06 16:01:49 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_11.html
+2026-03-06 16:01:49 | DEBUG    |   ✓ BG 2.11
+2026-03-06 16:01:49 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/12/
+2026-03-06 16:01:51 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_12.html
+2026-03-06 16:01:51 | DEBUG    |   ✓ BG 2.12
+2026-03-06 16:01:51 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/13/
+2026-03-06 16:01:52 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_13.html
+2026-03-06 16:01:52 | DEBUG    |   ✓ BG 2.13
+2026-03-06 16:01:52 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/14/
+2026-03-06 16:01:54 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_14.html
+2026-03-06 16:01:54 | DEBUG    |   ✓ BG 2.14
+2026-03-06 16:01:54 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/15/
+2026-03-06 16:01:55 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_15.html
+2026-03-06 16:01:55 | DEBUG    |   ✓ BG 2.15
+2026-03-06 16:01:55 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/16/
+2026-03-06 16:01:57 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_16.html
+2026-03-06 16:01:57 | DEBUG    |   ✓ BG 2.16
+2026-03-06 16:01:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/17/
+2026-03-06 16:01:58 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_17.html
+2026-03-06 16:01:58 | DEBUG    |   ✓ BG 2.17
+2026-03-06 16:01:58 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/18/
+2026-03-06 16:02:00 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_18.html
+2026-03-06 16:02:00 | DEBUG    |   ✓ BG 2.18
+2026-03-06 16:02:00 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/19/
+2026-03-06 16:02:01 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_19.html
+2026-03-06 16:02:01 | DEBUG    |   ✓ BG 2.19
+2026-03-06 16:02:01 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/20/
+2026-03-06 16:02:03 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_20.html
+2026-03-06 16:02:03 | DEBUG    |   ✓ BG 2.20
+2026-03-06 16:02:03 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/21/
+2026-03-06 16:02:04 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_21.html
+2026-03-06 16:02:04 | DEBUG    |   ✓ BG 2.21
+2026-03-06 16:02:04 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/22/
+2026-03-06 16:02:06 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_22.html
+2026-03-06 16:02:06 | DEBUG    |   ✓ BG 2.22
+2026-03-06 16:02:06 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/23/
+2026-03-06 16:02:08 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_23.html
+2026-03-06 16:02:08 | DEBUG    |   ✓ BG 2.23
+2026-03-06 16:02:08 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/24/
+2026-03-06 16:02:09 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_24.html
+2026-03-06 16:02:09 | DEBUG    |   ✓ BG 2.24
+2026-03-06 16:02:09 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/25/
+2026-03-06 16:02:11 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_25.html
+2026-03-06 16:02:11 | DEBUG    |   ✓ BG 2.25
+2026-03-06 16:02:11 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/26/
+2026-03-06 16:02:12 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_26.html
+2026-03-06 16:02:12 | DEBUG    |   ✓ BG 2.26
+2026-03-06 16:02:12 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/27/
+2026-03-06 16:02:13 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_27.html
+2026-03-06 16:02:13 | DEBUG    |   ✓ BG 2.27
+2026-03-06 16:02:13 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/28/
+2026-03-06 16:02:15 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_28.html
+2026-03-06 16:02:15 | DEBUG    |   ✓ BG 2.28
+2026-03-06 16:02:15 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/29/
+2026-03-06 16:02:17 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_29.html
+2026-03-06 16:02:17 | DEBUG    |   ✓ BG 2.29
+2026-03-06 16:02:17 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/30/
+2026-03-06 16:02:18 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_30.html
+2026-03-06 16:02:18 | DEBUG    |   ✓ BG 2.30
+2026-03-06 16:02:18 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/31/
+2026-03-06 16:02:20 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_31.html
+2026-03-06 16:02:20 | DEBUG    |   ✓ BG 2.31
+2026-03-06 16:02:20 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/32/
+2026-03-06 16:02:21 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_32.html
+2026-03-06 16:02:21 | DEBUG    |   ✓ BG 2.32
+2026-03-06 16:02:21 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/33/
+2026-03-06 16:02:22 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_33.html
+2026-03-06 16:02:22 | DEBUG    |   ✓ BG 2.33
+2026-03-06 16:02:22 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/34/
+2026-03-06 16:02:24 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_34.html
+2026-03-06 16:02:24 | DEBUG    |   ✓ BG 2.34
+2026-03-06 16:02:24 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/35/
+2026-03-06 16:02:25 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_35.html
+2026-03-06 16:02:25 | DEBUG    |   ✓ BG 2.35
+2026-03-06 16:02:25 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/36/
+2026-03-06 16:02:27 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_36.html
+2026-03-06 16:02:27 | DEBUG    |   ✓ BG 2.36
+2026-03-06 16:02:27 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/37/
+2026-03-06 16:02:28 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_37.html
+2026-03-06 16:02:28 | DEBUG    |   ✓ BG 2.37
+2026-03-06 16:02:28 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/38/
+2026-03-06 16:02:30 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_38.html
+2026-03-06 16:02:30 | DEBUG    |   ✓ BG 2.38
+2026-03-06 16:02:30 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/39/
+2026-03-06 16:02:31 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_39.html
+2026-03-06 16:02:31 | DEBUG    |   ✓ BG 2.39
+2026-03-06 16:02:31 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/40/
+2026-03-06 16:02:33 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_40.html
+2026-03-06 16:02:33 | DEBUG    |   ✓ BG 2.40
+2026-03-06 16:02:33 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/41/
+2026-03-06 16:02:34 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_41.html
+2026-03-06 16:02:34 | DEBUG    |   ✓ BG 2.41
+2026-03-06 16:02:34 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/42-43/
+2026-03-06 16:02:36 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_42-43.html
+2026-03-06 16:02:36 | DEBUG    |   ✓ BG 2.42-43
+2026-03-06 16:02:36 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/44/
+2026-03-06 16:02:37 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_44.html
+2026-03-06 16:02:37 | DEBUG    |   ✓ BG 2.44
+2026-03-06 16:02:37 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/45/
+2026-03-06 16:02:39 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_45.html
+2026-03-06 16:02:39 | DEBUG    |   ✓ BG 2.45
+2026-03-06 16:02:39 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/46/
+2026-03-06 16:02:40 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_46.html
+2026-03-06 16:02:40 | DEBUG    |   ✓ BG 2.46
+2026-03-06 16:02:40 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/47/
+2026-03-06 16:02:42 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_47.html
+2026-03-06 16:02:42 | DEBUG    |   ✓ BG 2.47
+2026-03-06 16:02:42 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/48/
+2026-03-06 16:02:43 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_48.html
+2026-03-06 16:02:43 | DEBUG    |   ✓ BG 2.48
+2026-03-06 16:02:43 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/49/
+2026-03-06 16:02:45 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_49.html
+2026-03-06 16:02:45 | DEBUG    |   ✓ BG 2.49
+2026-03-06 16:02:45 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/50/
+2026-03-06 16:02:46 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_50.html
+2026-03-06 16:02:46 | DEBUG    |   ✓ BG 2.50
+2026-03-06 16:02:46 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/51/
+2026-03-06 16:02:48 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_51.html
+2026-03-06 16:02:48 | DEBUG    |   ✓ BG 2.51
+2026-03-06 16:02:48 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/52/
+2026-03-06 16:02:49 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_52.html
+2026-03-06 16:02:49 | DEBUG    |   ✓ BG 2.52
+2026-03-06 16:02:49 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/53/
+2026-03-06 16:02:51 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_53.html
+2026-03-06 16:02:51 | DEBUG    |   ✓ BG 2.53
+2026-03-06 16:02:51 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/54/
+2026-03-06 16:02:53 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_54.html
+2026-03-06 16:02:53 | DEBUG    |   ✓ BG 2.54
+2026-03-06 16:02:53 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/55/
+2026-03-06 16:02:54 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_55.html
+2026-03-06 16:02:54 | DEBUG    |   ✓ BG 2.55
+2026-03-06 16:02:54 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/56/
+2026-03-06 16:02:55 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_56.html
+2026-03-06 16:02:55 | DEBUG    |   ✓ BG 2.56
+2026-03-06 16:02:55 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/57/
+2026-03-06 16:02:57 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_57.html
+2026-03-06 16:02:57 | DEBUG    |   ✓ BG 2.57
+2026-03-06 16:02:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/58/
+2026-03-06 16:02:58 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_58.html
+2026-03-06 16:02:58 | DEBUG    |   ✓ BG 2.58
+2026-03-06 16:02:58 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/59/
+2026-03-06 16:03:00 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_59.html
+2026-03-06 16:03:00 | DEBUG    |   ✓ BG 2.59
+2026-03-06 16:03:00 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/60/
+2026-03-06 16:03:01 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_60.html
+2026-03-06 16:03:01 | DEBUG    |   ✓ BG 2.60
+2026-03-06 16:03:01 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/61/
+2026-03-06 16:03:03 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_61.html
+2026-03-06 16:03:03 | DEBUG    |   ✓ BG 2.61
+2026-03-06 16:03:03 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/62/
+2026-03-06 16:03:04 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_62.html
+2026-03-06 16:03:04 | DEBUG    |   ✓ BG 2.62
+2026-03-06 16:03:04 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/63/
+2026-03-06 16:03:06 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_63.html
+2026-03-06 16:03:06 | DEBUG    |   ✓ BG 2.63
+2026-03-06 16:03:06 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/64/
+2026-03-06 16:03:07 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_64.html
+2026-03-06 16:03:07 | DEBUG    |   ✓ BG 2.64
+2026-03-06 16:03:07 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/65/
+2026-03-06 16:03:09 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_65.html
+2026-03-06 16:03:09 | DEBUG    |   ✓ BG 2.65
+2026-03-06 16:03:09 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/66/
+2026-03-06 16:03:10 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_66.html
+2026-03-06 16:03:10 | DEBUG    |   ✓ BG 2.66
+2026-03-06 16:03:10 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/67/
+2026-03-06 16:03:12 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_67.html
+2026-03-06 16:03:12 | DEBUG    |   ✓ BG 2.67
+2026-03-06 16:03:12 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/68/
+2026-03-06 16:03:13 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_68.html
+2026-03-06 16:03:13 | DEBUG    |   ✓ BG 2.68
+2026-03-06 16:03:13 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/69/
+2026-03-06 16:03:15 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_69.html
+2026-03-06 16:03:15 | DEBUG    |   ✓ BG 2.69
+2026-03-06 16:03:15 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/70/
+2026-03-06 16:03:16 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_70.html
+2026-03-06 16:03:16 | DEBUG    |   ✓ BG 2.70
+2026-03-06 16:03:16 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/71/
+2026-03-06 16:03:18 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_71.html
+2026-03-06 16:03:18 | DEBUG    |   ✓ BG 2.71
+2026-03-06 16:03:18 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/2/72/
+2026-03-06 16:03:19 | DEBUG    | Saved raw HTML → data/raw\bg\bg_2_72.html
+2026-03-06 16:03:19 | DEBUG    |   ✓ BG 2.72
+2026-03-06 16:03:19 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/1/
+2026-03-06 16:03:21 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_1.html
+2026-03-06 16:03:21 | DEBUG    |   ✓ BG 3.1
+2026-03-06 16:03:21 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/2/
+2026-03-06 16:03:22 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_2.html
+2026-03-06 16:03:22 | DEBUG    |   ✓ BG 3.2
+2026-03-06 16:03:22 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/3/
+2026-03-06 16:03:24 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_3.html
+2026-03-06 16:03:24 | DEBUG    |   ✓ BG 3.3
+2026-03-06 16:03:24 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/4/
+2026-03-06 16:03:25 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_4.html
+2026-03-06 16:03:25 | DEBUG    |   ✓ BG 3.4
+2026-03-06 16:03:25 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/5/
+2026-03-06 16:03:27 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_5.html
+2026-03-06 16:03:27 | DEBUG    |   ✓ BG 3.5
+2026-03-06 16:03:27 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/6/
+2026-03-06 16:03:28 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_6.html
+2026-03-06 16:03:28 | DEBUG    |   ✓ BG 3.6
+2026-03-06 16:03:28 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/7/
+2026-03-06 16:03:30 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_7.html
+2026-03-06 16:03:30 | DEBUG    |   ✓ BG 3.7
+2026-03-06 16:03:30 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/8/
+2026-03-06 16:03:32 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_8.html
+2026-03-06 16:03:32 | DEBUG    |   ✓ BG 3.8
+2026-03-06 16:03:32 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/9/
+2026-03-06 16:03:33 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_9.html
+2026-03-06 16:03:33 | DEBUG    |   ✓ BG 3.9
+2026-03-06 16:03:33 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/10/
+2026-03-06 16:03:35 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_10.html
+2026-03-06 16:03:35 | DEBUG    |   ✓ BG 3.10
+2026-03-06 16:03:35 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/11/
+2026-03-06 16:03:36 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_11.html
+2026-03-06 16:03:36 | DEBUG    |   ✓ BG 3.11
+2026-03-06 16:03:36 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/12/
+2026-03-06 16:03:38 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_12.html
+2026-03-06 16:03:38 | DEBUG    |   ✓ BG 3.12
+2026-03-06 16:03:38 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/13/
+2026-03-06 16:03:39 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_13.html
+2026-03-06 16:03:39 | DEBUG    |   ✓ BG 3.13
+2026-03-06 16:03:39 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/14/
+2026-03-06 16:03:41 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_14.html
+2026-03-06 16:03:41 | DEBUG    |   ✓ BG 3.14
+2026-03-06 16:03:41 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/15/
+2026-03-06 16:03:42 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_15.html
+2026-03-06 16:03:42 | DEBUG    |   ✓ BG 3.15
+2026-03-06 16:03:42 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/16/
+2026-03-06 16:03:44 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_16.html
+2026-03-06 16:03:44 | DEBUG    |   ✓ BG 3.16
+2026-03-06 16:03:44 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/17/
+2026-03-06 16:03:45 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_17.html
+2026-03-06 16:03:46 | DEBUG    |   ✓ BG 3.17
+2026-03-06 16:03:46 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/18/
+2026-03-06 16:03:47 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_18.html
+2026-03-06 16:03:47 | DEBUG    |   ✓ BG 3.18
+2026-03-06 16:03:47 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/19/
+2026-03-06 16:03:48 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_19.html
+2026-03-06 16:03:48 | DEBUG    |   ✓ BG 3.19
+2026-03-06 16:03:48 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/20/
+2026-03-06 16:03:50 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_20.html
+2026-03-06 16:03:50 | DEBUG    |   ✓ BG 3.20
+2026-03-06 16:03:50 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/21/
+2026-03-06 16:03:52 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_21.html
+2026-03-06 16:03:52 | DEBUG    |   ✓ BG 3.21
+2026-03-06 16:03:52 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/22/
+2026-03-06 16:03:53 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_22.html
+2026-03-06 16:03:53 | DEBUG    |   ✓ BG 3.22
+2026-03-06 16:03:53 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/23/
+2026-03-06 16:03:55 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_23.html
+2026-03-06 16:03:55 | DEBUG    |   ✓ BG 3.23
+2026-03-06 16:03:55 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/24/
+2026-03-06 16:03:56 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_24.html
+2026-03-06 16:03:56 | DEBUG    |   ✓ BG 3.24
+2026-03-06 16:03:56 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/25/
+2026-03-06 16:03:57 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_25.html
+2026-03-06 16:03:57 | DEBUG    |   ✓ BG 3.25
+2026-03-06 16:03:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/26/
+2026-03-06 16:03:59 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_26.html
+2026-03-06 16:03:59 | DEBUG    |   ✓ BG 3.26
+2026-03-06 16:03:59 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/27/
+2026-03-06 16:04:01 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_27.html
+2026-03-06 16:04:01 | DEBUG    |   ✓ BG 3.27
+2026-03-06 16:04:01 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/28/
+2026-03-06 16:04:02 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_28.html
+2026-03-06 16:04:02 | DEBUG    |   ✓ BG 3.28
+2026-03-06 16:04:02 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/29/
+2026-03-06 16:04:04 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_29.html
+2026-03-06 16:04:04 | DEBUG    |   ✓ BG 3.29
+2026-03-06 16:04:04 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/30/
+2026-03-06 16:04:05 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_30.html
+2026-03-06 16:04:05 | DEBUG    |   ✓ BG 3.30
+2026-03-06 16:04:05 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/31/
+2026-03-06 16:04:07 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_31.html
+2026-03-06 16:04:07 | DEBUG    |   ✓ BG 3.31
+2026-03-06 16:04:07 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/32/
+2026-03-06 16:04:08 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_32.html
+2026-03-06 16:04:08 | DEBUG    |   ✓ BG 3.32
+2026-03-06 16:04:08 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/33/
+2026-03-06 16:04:10 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_33.html
+2026-03-06 16:04:10 | DEBUG    |   ✓ BG 3.33
+2026-03-06 16:04:10 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/34/
+2026-03-06 16:04:11 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_34.html
+2026-03-06 16:04:11 | DEBUG    |   ✓ BG 3.34
+2026-03-06 16:04:11 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/35/
+2026-03-06 16:04:13 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_35.html
+2026-03-06 16:04:13 | DEBUG    |   ✓ BG 3.35
+2026-03-06 16:04:13 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/36/
+2026-03-06 16:04:14 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_36.html
+2026-03-06 16:04:14 | DEBUG    |   ✓ BG 3.36
+2026-03-06 16:04:14 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/37/
+2026-03-06 16:04:15 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_37.html
+2026-03-06 16:04:15 | DEBUG    |   ✓ BG 3.37
+2026-03-06 16:04:15 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/38/
+2026-03-06 16:04:17 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_38.html
+2026-03-06 16:04:17 | DEBUG    |   ✓ BG 3.38
+2026-03-06 16:04:17 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/39/
+2026-03-06 16:04:19 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_39.html
+2026-03-06 16:04:19 | DEBUG    |   ✓ BG 3.39
+2026-03-06 16:04:19 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/40/
+2026-03-06 16:04:20 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_40.html
+2026-03-06 16:04:20 | DEBUG    |   ✓ BG 3.40
+2026-03-06 16:04:20 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/41/
+2026-03-06 16:04:22 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_41.html
+2026-03-06 16:04:22 | DEBUG    |   ✓ BG 3.41
+2026-03-06 16:04:22 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/42/
+2026-03-06 16:04:23 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_42.html
+2026-03-06 16:04:23 | DEBUG    |   ✓ BG 3.42
+2026-03-06 16:04:23 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/3/43/
+2026-03-06 16:04:25 | DEBUG    | Saved raw HTML → data/raw\bg\bg_3_43.html
+2026-03-06 16:04:25 | DEBUG    |   ✓ BG 3.43
+2026-03-06 16:04:25 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/1/
+2026-03-06 16:04:26 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_1.html
+2026-03-06 16:04:26 | DEBUG    |   ✓ BG 4.1
+2026-03-06 16:04:26 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/2/
+2026-03-06 16:04:29 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_2.html
+2026-03-06 16:04:29 | DEBUG    |   ✓ BG 4.2
+2026-03-06 16:04:29 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/3/
+2026-03-06 16:04:31 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_3.html
+2026-03-06 16:04:31 | DEBUG    |   ✓ BG 4.3
+2026-03-06 16:04:31 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/4/
+2026-03-06 16:04:32 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_4.html
+2026-03-06 16:04:32 | DEBUG    |   ✓ BG 4.4
+2026-03-06 16:04:32 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/5/
+2026-03-06 16:04:34 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_5.html
+2026-03-06 16:04:34 | DEBUG    |   ✓ BG 4.5
+2026-03-06 16:04:34 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/6/
+2026-03-06 16:04:35 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_6.html
+2026-03-06 16:04:35 | DEBUG    |   ✓ BG 4.6
+2026-03-06 16:04:35 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/7/
+2026-03-06 16:04:37 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_7.html
+2026-03-06 16:04:37 | DEBUG    |   ✓ BG 4.7
+2026-03-06 16:04:37 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/8/
+2026-03-06 16:04:38 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_8.html
+2026-03-06 16:04:38 | DEBUG    |   ✓ BG 4.8
+2026-03-06 16:04:38 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/9/
+2026-03-06 16:04:39 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_9.html
+2026-03-06 16:04:39 | DEBUG    |   ✓ BG 4.9
+2026-03-06 16:04:39 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/10/
+2026-03-06 16:04:41 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_10.html
+2026-03-06 16:04:41 | DEBUG    |   ✓ BG 4.10
+2026-03-06 16:04:41 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/11/
+2026-03-06 16:04:42 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_11.html
+2026-03-06 16:04:42 | DEBUG    |   ✓ BG 4.11
+2026-03-06 16:04:42 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/12/
+2026-03-06 16:04:44 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_12.html
+2026-03-06 16:04:44 | DEBUG    |   ✓ BG 4.12
+2026-03-06 16:04:44 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/13/
+2026-03-06 16:04:45 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_13.html
+2026-03-06 16:04:45 | DEBUG    |   ✓ BG 4.13
+2026-03-06 16:04:45 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/14/
+2026-03-06 16:04:47 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_14.html
+2026-03-06 16:04:47 | DEBUG    |   ✓ BG 4.14
+2026-03-06 16:04:47 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/15/
+2026-03-06 16:04:48 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_15.html
+2026-03-06 16:04:48 | DEBUG    |   ✓ BG 4.15
+2026-03-06 16:04:48 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/16/
+2026-03-06 16:04:50 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_16.html
+2026-03-06 16:04:50 | DEBUG    |   ✓ BG 4.16
+2026-03-06 16:04:50 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/17/
+2026-03-06 16:04:51 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_17.html
+2026-03-06 16:04:51 | DEBUG    |   ✓ BG 4.17
+2026-03-06 16:04:51 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/18/
+2026-03-06 16:04:53 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_18.html
+2026-03-06 16:04:53 | DEBUG    |   ✓ BG 4.18
+2026-03-06 16:04:53 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/19/
+2026-03-06 16:04:54 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_19.html
+2026-03-06 16:04:54 | DEBUG    |   ✓ BG 4.19
+2026-03-06 16:04:54 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/20/
+2026-03-06 16:04:56 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_20.html
+2026-03-06 16:04:56 | DEBUG    |   ✓ BG 4.20
+2026-03-06 16:04:56 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/21/
+2026-03-06 16:04:57 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_21.html
+2026-03-06 16:04:57 | DEBUG    |   ✓ BG 4.21
+2026-03-06 16:04:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/22/
+2026-03-06 16:04:59 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_22.html
+2026-03-06 16:04:59 | DEBUG    |   ✓ BG 4.22
+2026-03-06 16:04:59 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/23/
+2026-03-06 16:05:00 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_23.html
+2026-03-06 16:05:00 | DEBUG    |   ✓ BG 4.23
+2026-03-06 16:05:00 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/24/
+2026-03-06 16:05:02 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_24.html
+2026-03-06 16:05:02 | DEBUG    |   ✓ BG 4.24
+2026-03-06 16:05:02 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/25/
+2026-03-06 16:05:04 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_25.html
+2026-03-06 16:05:04 | DEBUG    |   ✓ BG 4.25
+2026-03-06 16:05:04 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/26/
+2026-03-06 16:05:05 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_26.html
+2026-03-06 16:05:05 | DEBUG    |   ✓ BG 4.26
+2026-03-06 16:05:05 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/27/
+2026-03-06 16:05:07 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_27.html
+2026-03-06 16:05:07 | DEBUG    |   ✓ BG 4.27
+2026-03-06 16:05:07 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/28/
+2026-03-06 16:05:08 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_28.html
+2026-03-06 16:05:08 | DEBUG    |   ✓ BG 4.28
+2026-03-06 16:05:08 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/29/
+2026-03-06 16:05:10 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_29.html
+2026-03-06 16:05:10 | DEBUG    |   ✓ BG 4.29
+2026-03-06 16:05:10 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/30/
+2026-03-06 16:05:11 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_30.html
+2026-03-06 16:05:11 | DEBUG    |   ✓ BG 4.30
+2026-03-06 16:05:11 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/31/
+2026-03-06 16:05:13 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_31.html
+2026-03-06 16:05:13 | DEBUG    |   ✓ BG 4.31
+2026-03-06 16:05:13 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/32/
+2026-03-06 16:05:14 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_32.html
+2026-03-06 16:05:14 | DEBUG    |   ✓ BG 4.32
+2026-03-06 16:05:14 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/33/
+2026-03-06 16:05:15 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_33.html
+2026-03-06 16:05:15 | DEBUG    |   ✓ BG 4.33
+2026-03-06 16:05:15 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/34/
+2026-03-06 16:05:17 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_34.html
+2026-03-06 16:05:17 | DEBUG    |   ✓ BG 4.34
+2026-03-06 16:05:17 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/35/
+2026-03-06 16:05:18 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_35.html
+2026-03-06 16:05:18 | DEBUG    |   ✓ BG 4.35
+2026-03-06 16:05:18 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/36/
+2026-03-06 16:05:20 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_36.html
+2026-03-06 16:05:20 | DEBUG    |   ✓ BG 4.36
+2026-03-06 16:05:20 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/37/
+2026-03-06 16:05:21 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_37.html
+2026-03-06 16:05:21 | DEBUG    |   ✓ BG 4.37
+2026-03-06 16:05:21 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/38/
+2026-03-06 16:05:24 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_38.html
+2026-03-06 16:05:24 | DEBUG    |   ✓ BG 4.38
+2026-03-06 16:05:24 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/39/
+2026-03-06 16:05:25 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_39.html
+2026-03-06 16:05:25 | DEBUG    |   ✓ BG 4.39
+2026-03-06 16:05:25 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/40/
+2026-03-06 16:05:27 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_40.html
+2026-03-06 16:05:27 | DEBUG    |   ✓ BG 4.40
+2026-03-06 16:05:27 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/41/
+2026-03-06 16:05:28 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_41.html
+2026-03-06 16:05:28 | DEBUG    |   ✓ BG 4.41
+2026-03-06 16:05:28 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/4/42/
+2026-03-06 16:05:30 | DEBUG    | Saved raw HTML → data/raw\bg\bg_4_42.html
+2026-03-06 16:05:30 | DEBUG    |   ✓ BG 4.42
+2026-03-06 16:05:30 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/1/
+2026-03-06 16:05:32 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_1.html
+2026-03-06 16:05:32 | DEBUG    |   ✓ BG 5.1
+2026-03-06 16:05:32 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/2/
+2026-03-06 16:05:33 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_2.html
+2026-03-06 16:05:33 | DEBUG    |   ✓ BG 5.2
+2026-03-06 16:05:33 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/3/
+2026-03-06 16:05:35 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_3.html
+2026-03-06 16:05:35 | DEBUG    |   ✓ BG 5.3
+2026-03-06 16:05:35 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/4/
+2026-03-06 16:05:36 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_4.html
+2026-03-06 16:05:36 | DEBUG    |   ✓ BG 5.4
+2026-03-06 16:05:36 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/5/
+2026-03-06 16:05:37 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_5.html
+2026-03-06 16:05:37 | DEBUG    |   ✓ BG 5.5
+2026-03-06 16:05:37 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/6/
+2026-03-06 16:05:39 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_6.html
+2026-03-06 16:05:39 | DEBUG    |   ✓ BG 5.6
+2026-03-06 16:05:39 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/7/
+2026-03-06 16:05:41 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_7.html
+2026-03-06 16:05:41 | DEBUG    |   ✓ BG 5.7
+2026-03-06 16:05:41 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/8-9/
+2026-03-06 16:05:42 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_8-9.html
+2026-03-06 16:05:42 | DEBUG    |   ✓ BG 5.8-9
+2026-03-06 16:05:42 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/10/
+2026-03-06 16:05:43 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_10.html
+2026-03-06 16:05:43 | DEBUG    |   ✓ BG 5.10
+2026-03-06 16:05:43 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/11/
+2026-03-06 16:05:45 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_11.html
+2026-03-06 16:05:45 | DEBUG    |   ✓ BG 5.11
+2026-03-06 16:05:45 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/12/
+2026-03-06 16:05:46 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_12.html
+2026-03-06 16:05:46 | DEBUG    |   ✓ BG 5.12
+2026-03-06 16:05:46 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/13/
+2026-03-06 16:05:48 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_13.html
+2026-03-06 16:05:48 | DEBUG    |   ✓ BG 5.13
+2026-03-06 16:05:48 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/14/
+2026-03-06 16:05:49 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_14.html
+2026-03-06 16:05:49 | DEBUG    |   ✓ BG 5.14
+2026-03-06 16:05:49 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/15/
+2026-03-06 16:05:51 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_15.html
+2026-03-06 16:05:51 | DEBUG    |   ✓ BG 5.15
+2026-03-06 16:05:51 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/16/
+2026-03-06 16:05:52 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_16.html
+2026-03-06 16:05:52 | DEBUG    |   ✓ BG 5.16
+2026-03-06 16:05:52 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/17/
+2026-03-06 16:05:54 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_17.html
+2026-03-06 16:05:54 | DEBUG    |   ✓ BG 5.17
+2026-03-06 16:05:54 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/18/
+2026-03-06 16:05:55 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_18.html
+2026-03-06 16:05:55 | DEBUG    |   ✓ BG 5.18
+2026-03-06 16:05:55 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/19/
+2026-03-06 16:05:57 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_19.html
+2026-03-06 16:05:57 | DEBUG    |   ✓ BG 5.19
+2026-03-06 16:05:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/20/
+2026-03-06 16:05:58 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_20.html
+2026-03-06 16:05:58 | DEBUG    |   ✓ BG 5.20
+2026-03-06 16:05:58 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/21/
+2026-03-06 16:06:00 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_21.html
+2026-03-06 16:06:00 | DEBUG    |   ✓ BG 5.21
+2026-03-06 16:06:00 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/22/
+2026-03-06 16:06:01 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_22.html
+2026-03-06 16:06:01 | DEBUG    |   ✓ BG 5.22
+2026-03-06 16:06:01 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/23/
+2026-03-06 16:06:03 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_23.html
+2026-03-06 16:06:03 | DEBUG    |   ✓ BG 5.23
+2026-03-06 16:06:03 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/24/
+2026-03-06 16:06:04 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_24.html
+2026-03-06 16:06:04 | DEBUG    |   ✓ BG 5.24
+2026-03-06 16:06:04 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/25/
+2026-03-06 16:06:06 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_25.html
+2026-03-06 16:06:06 | DEBUG    |   ✓ BG 5.25
+2026-03-06 16:06:06 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/26/
+2026-03-06 16:06:07 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_26.html
+2026-03-06 16:06:07 | DEBUG    |   ✓ BG 5.26
+2026-03-06 16:06:07 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/27-28/
+2026-03-06 16:06:09 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_27-28.html
+2026-03-06 16:06:09 | DEBUG    |   ✓ BG 5.27-28
+2026-03-06 16:06:09 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/5/29/
+2026-03-06 16:06:11 | DEBUG    | Saved raw HTML → data/raw\bg\bg_5_29.html
+2026-03-06 16:06:11 | DEBUG    |   ✓ BG 5.29
+2026-03-06 16:06:11 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/1/
+2026-03-06 16:06:12 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_1.html
+2026-03-06 16:06:12 | DEBUG    |   ✓ BG 6.1
+2026-03-06 16:06:12 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/2/
+2026-03-06 16:06:13 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_2.html
+2026-03-06 16:06:13 | DEBUG    |   ✓ BG 6.2
+2026-03-06 16:06:13 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/3/
+2026-03-06 16:06:15 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_3.html
+2026-03-06 16:06:15 | DEBUG    |   ✓ BG 6.3
+2026-03-06 16:06:15 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/4/
+2026-03-06 16:06:16 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_4.html
+2026-03-06 16:06:16 | DEBUG    |   ✓ BG 6.4
+2026-03-06 16:06:16 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/5/
+2026-03-06 16:06:18 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_5.html
+2026-03-06 16:06:18 | DEBUG    |   ✓ BG 6.5
+2026-03-06 16:06:18 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/6/
+2026-03-06 16:06:19 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_6.html
+2026-03-06 16:06:19 | DEBUG    |   ✓ BG 6.6
+2026-03-06 16:06:19 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/7/
+2026-03-06 16:06:21 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_7.html
+2026-03-06 16:06:21 | DEBUG    |   ✓ BG 6.7
+2026-03-06 16:06:21 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/8/
+2026-03-06 16:06:23 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_8.html
+2026-03-06 16:06:23 | DEBUG    |   ✓ BG 6.8
+2026-03-06 16:06:23 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/9/
+2026-03-06 16:06:24 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_9.html
+2026-03-06 16:06:24 | DEBUG    |   ✓ BG 6.9
+2026-03-06 16:06:24 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/10/
+2026-03-06 16:06:25 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_10.html
+2026-03-06 16:06:25 | DEBUG    |   ✓ BG 6.10
+2026-03-06 16:06:25 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/11-12/
+2026-03-06 16:06:27 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_11-12.html
+2026-03-06 16:06:27 | DEBUG    |   ✓ BG 6.11-12
+2026-03-06 16:06:27 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/13-14/
+2026-03-06 16:06:28 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_13-14.html
+2026-03-06 16:06:28 | DEBUG    |   ✓ BG 6.13-14
+2026-03-06 16:06:28 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/15/
+2026-03-06 16:06:30 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_15.html
+2026-03-06 16:06:30 | DEBUG    |   ✓ BG 6.15
+2026-03-06 16:06:30 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/16/
+2026-03-06 16:06:31 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_16.html
+2026-03-06 16:06:31 | DEBUG    |   ✓ BG 6.16
+2026-03-06 16:06:31 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/17/
+2026-03-06 16:06:33 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_17.html
+2026-03-06 16:06:33 | DEBUG    |   ✓ BG 6.17
+2026-03-06 16:06:33 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/18/
+2026-03-06 16:06:34 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_18.html
+2026-03-06 16:06:34 | DEBUG    |   ✓ BG 6.18
+2026-03-06 16:06:34 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/19/
+2026-03-06 16:06:36 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_19.html
+2026-03-06 16:06:36 | DEBUG    |   ✓ BG 6.19
+2026-03-06 16:06:36 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/20-23/
+2026-03-06 16:06:37 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_20-23.html
+2026-03-06 16:06:37 | DEBUG    |   ✓ BG 6.20-23
+2026-03-06 16:06:37 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/24/
+2026-03-06 16:06:39 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_24.html
+2026-03-06 16:06:39 | DEBUG    |   ✓ BG 6.24
+2026-03-06 16:06:39 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/25/
+2026-03-06 16:06:41 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_25.html
+2026-03-06 16:06:41 | DEBUG    |   ✓ BG 6.25
+2026-03-06 16:06:41 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/26/
+2026-03-06 16:06:42 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_26.html
+2026-03-06 16:06:42 | DEBUG    |   ✓ BG 6.26
+2026-03-06 16:06:42 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/27/
+2026-03-06 16:06:43 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_27.html
+2026-03-06 16:06:43 | DEBUG    |   ✓ BG 6.27
+2026-03-06 16:06:43 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/28/
+2026-03-06 16:06:45 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_28.html
+2026-03-06 16:06:45 | DEBUG    |   ✓ BG 6.28
+2026-03-06 16:06:45 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/29/
+2026-03-06 16:06:46 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_29.html
+2026-03-06 16:06:46 | DEBUG    |   ✓ BG 6.29
+2026-03-06 16:06:46 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/30/
+2026-03-06 16:06:48 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_30.html
+2026-03-06 16:06:48 | DEBUG    |   ✓ BG 6.30
+2026-03-06 16:06:48 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/31/
+2026-03-06 16:06:50 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_31.html
+2026-03-06 16:06:50 | DEBUG    |   ✓ BG 6.31
+2026-03-06 16:06:50 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/32/
+2026-03-06 16:06:51 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_32.html
+2026-03-06 16:06:51 | DEBUG    |   ✓ BG 6.32
+2026-03-06 16:06:51 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/33/
+2026-03-06 16:06:52 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_33.html
+2026-03-06 16:06:52 | DEBUG    |   ✓ BG 6.33
+2026-03-06 16:06:52 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/34/
+2026-03-06 16:06:54 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_34.html
+2026-03-06 16:06:54 | DEBUG    |   ✓ BG 6.34
+2026-03-06 16:06:54 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/35/
+2026-03-06 16:06:55 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_35.html
+2026-03-06 16:06:55 | DEBUG    |   ✓ BG 6.35
+2026-03-06 16:06:55 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/36/
+2026-03-06 16:06:57 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_36.html
+2026-03-06 16:06:57 | DEBUG    |   ✓ BG 6.36
+2026-03-06 16:06:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/37/
+2026-03-06 16:06:59 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_37.html
+2026-03-06 16:06:59 | DEBUG    |   ✓ BG 6.37
+2026-03-06 16:06:59 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/38/
+2026-03-06 16:07:00 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_38.html
+2026-03-06 16:07:00 | DEBUG    |   ✓ BG 6.38
+2026-03-06 16:07:00 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/39/
+2026-03-06 16:07:01 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_39.html
+2026-03-06 16:07:01 | DEBUG    |   ✓ BG 6.39
+2026-03-06 16:07:01 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/40/
+2026-03-06 16:07:03 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_40.html
+2026-03-06 16:07:03 | DEBUG    |   ✓ BG 6.40
+2026-03-06 16:07:03 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/41/
+2026-03-06 16:07:05 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_41.html
+2026-03-06 16:07:05 | DEBUG    |   ✓ BG 6.41
+2026-03-06 16:07:05 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/42/
+2026-03-06 16:07:06 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_42.html
+2026-03-06 16:07:06 | DEBUG    |   ✓ BG 6.42
+2026-03-06 16:07:06 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/43/
+2026-03-06 16:07:08 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_43.html
+2026-03-06 16:07:08 | DEBUG    |   ✓ BG 6.43
+2026-03-06 16:07:08 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/44/
+2026-03-06 16:07:10 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_44.html
+2026-03-06 16:07:10 | DEBUG    |   ✓ BG 6.44
+2026-03-06 16:07:10 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/45/
+2026-03-06 16:07:11 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_45.html
+2026-03-06 16:07:11 | DEBUG    |   ✓ BG 6.45
+2026-03-06 16:07:11 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/46/
+2026-03-06 16:07:13 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_46.html
+2026-03-06 16:07:13 | DEBUG    |   ✓ BG 6.46
+2026-03-06 16:07:13 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/6/47/
+2026-03-06 16:07:14 | DEBUG    | Saved raw HTML → data/raw\bg\bg_6_47.html
+2026-03-06 16:07:14 | DEBUG    |   ✓ BG 6.47
+2026-03-06 16:07:14 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/1/
+2026-03-06 16:07:16 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_1.html
+2026-03-06 16:07:16 | DEBUG    |   ✓ BG 7.1
+2026-03-06 16:07:16 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/2/
+2026-03-06 16:07:17 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_2.html
+2026-03-06 16:07:17 | DEBUG    |   ✓ BG 7.2
+2026-03-06 16:07:17 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/3/
+2026-03-06 16:07:19 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_3.html
+2026-03-06 16:07:19 | DEBUG    |   ✓ BG 7.3
+2026-03-06 16:07:19 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/4/
+2026-03-06 16:07:20 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_4.html
+2026-03-06 16:07:20 | DEBUG    |   ✓ BG 7.4
+2026-03-06 16:07:20 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/5/
+2026-03-06 16:07:22 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_5.html
+2026-03-06 16:07:22 | DEBUG    |   ✓ BG 7.5
+2026-03-06 16:07:22 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/6/
+2026-03-06 16:07:23 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_6.html
+2026-03-06 16:07:23 | DEBUG    |   ✓ BG 7.6
+2026-03-06 16:07:23 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/7/
+2026-03-06 16:07:25 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_7.html
+2026-03-06 16:07:25 | DEBUG    |   ✓ BG 7.7
+2026-03-06 16:07:25 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/8/
+2026-03-06 16:07:26 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_8.html
+2026-03-06 16:07:26 | DEBUG    |   ✓ BG 7.8
+2026-03-06 16:07:26 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/9/
+2026-03-06 16:07:28 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_9.html
+2026-03-06 16:07:28 | DEBUG    |   ✓ BG 7.9
+2026-03-06 16:07:28 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/10/
+2026-03-06 16:07:29 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_10.html
+2026-03-06 16:07:29 | DEBUG    |   ✓ BG 7.10
+2026-03-06 16:07:29 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/11/
+2026-03-06 16:07:31 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_11.html
+2026-03-06 16:07:31 | DEBUG    |   ✓ BG 7.11
+2026-03-06 16:07:31 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/12/
+2026-03-06 16:07:32 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_12.html
+2026-03-06 16:07:32 | DEBUG    |   ✓ BG 7.12
+2026-03-06 16:07:32 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/13/
+2026-03-06 16:07:33 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_13.html
+2026-03-06 16:07:33 | DEBUG    |   ✓ BG 7.13
+2026-03-06 16:07:33 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/14/
+2026-03-06 16:07:35 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_14.html
+2026-03-06 16:07:35 | DEBUG    |   ✓ BG 7.14
+2026-03-06 16:07:35 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/15/
+2026-03-06 16:07:37 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_15.html
+2026-03-06 16:07:37 | DEBUG    |   ✓ BG 7.15
+2026-03-06 16:07:37 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/16/
+2026-03-06 16:07:38 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_16.html
+2026-03-06 16:07:38 | DEBUG    |   ✓ BG 7.16
+2026-03-06 16:07:38 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/17/
+2026-03-06 16:07:39 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_17.html
+2026-03-06 16:07:39 | DEBUG    |   ✓ BG 7.17
+2026-03-06 16:07:39 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/18/
+2026-03-06 16:07:41 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_18.html
+2026-03-06 16:07:41 | DEBUG    |   ✓ BG 7.18
+2026-03-06 16:07:41 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/19/
+2026-03-06 16:07:42 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_19.html
+2026-03-06 16:07:42 | DEBUG    |   ✓ BG 7.19
+2026-03-06 16:07:42 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/20/
+2026-03-06 16:07:44 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_20.html
+2026-03-06 16:07:44 | DEBUG    |   ✓ BG 7.20
+2026-03-06 16:07:44 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/21/
+2026-03-06 16:07:45 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_21.html
+2026-03-06 16:07:46 | DEBUG    |   ✓ BG 7.21
+2026-03-06 16:07:46 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/22/
+2026-03-06 16:07:47 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_22.html
+2026-03-06 16:07:47 | DEBUG    |   ✓ BG 7.22
+2026-03-06 16:07:47 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/23/
+2026-03-06 16:07:49 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_23.html
+2026-03-06 16:07:49 | DEBUG    |   ✓ BG 7.23
+2026-03-06 16:07:49 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/24/
+2026-03-06 16:07:50 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_24.html
+2026-03-06 16:07:50 | DEBUG    |   ✓ BG 7.24
+2026-03-06 16:07:50 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/25/
+2026-03-06 16:07:52 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_25.html
+2026-03-06 16:07:52 | DEBUG    |   ✓ BG 7.25
+2026-03-06 16:07:52 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/26/
+2026-03-06 16:07:53 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_26.html
+2026-03-06 16:07:53 | DEBUG    |   ✓ BG 7.26
+2026-03-06 16:07:53 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/27/
+2026-03-06 16:07:54 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_27.html
+2026-03-06 16:07:54 | DEBUG    |   ✓ BG 7.27
+2026-03-06 16:07:54 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/28/
+2026-03-06 16:07:56 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_28.html
+2026-03-06 16:07:56 | DEBUG    |   ✓ BG 7.28
+2026-03-06 16:07:56 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/29/
+2026-03-06 16:07:57 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_29.html
+2026-03-06 16:07:57 | DEBUG    |   ✓ BG 7.29
+2026-03-06 16:07:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/7/30/
+2026-03-06 16:07:59 | DEBUG    | Saved raw HTML → data/raw\bg\bg_7_30.html
+2026-03-06 16:07:59 | DEBUG    |   ✓ BG 7.30
+2026-03-06 16:07:59 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/1/
+2026-03-06 16:08:00 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_1.html
+2026-03-06 16:08:00 | DEBUG    |   ✓ BG 8.1
+2026-03-06 16:08:00 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/2/
+2026-03-06 16:08:02 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_2.html
+2026-03-06 16:08:02 | DEBUG    |   ✓ BG 8.2
+2026-03-06 16:08:02 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/3/
+2026-03-06 16:08:03 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_3.html
+2026-03-06 16:08:03 | DEBUG    |   ✓ BG 8.3
+2026-03-06 16:08:03 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/4/
+2026-03-06 16:08:05 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_4.html
+2026-03-06 16:08:05 | DEBUG    |   ✓ BG 8.4
+2026-03-06 16:08:05 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/5/
+2026-03-06 16:08:07 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_5.html
+2026-03-06 16:08:07 | DEBUG    |   ✓ BG 8.5
+2026-03-06 16:08:07 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/6/
+2026-03-06 16:08:08 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_6.html
+2026-03-06 16:08:08 | DEBUG    |   ✓ BG 8.6
+2026-03-06 16:08:08 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/7/
+2026-03-06 16:08:11 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_7.html
+2026-03-06 16:08:11 | DEBUG    |   ✓ BG 8.7
+2026-03-06 16:08:11 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/8/
+2026-03-06 16:08:12 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_8.html
+2026-03-06 16:08:12 | DEBUG    |   ✓ BG 8.8
+2026-03-06 16:08:12 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/9/
+2026-03-06 16:08:13 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_9.html
+2026-03-06 16:08:13 | DEBUG    |   ✓ BG 8.9
+2026-03-06 16:08:13 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/10/
+2026-03-06 16:08:14 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_10.html
+2026-03-06 16:08:15 | DEBUG    |   ✓ BG 8.10
+2026-03-06 16:08:15 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/11/
+2026-03-06 16:08:16 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_11.html
+2026-03-06 16:08:16 | DEBUG    |   ✓ BG 8.11
+2026-03-06 16:08:16 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/12/
+2026-03-06 16:08:17 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_12.html
+2026-03-06 16:08:17 | DEBUG    |   ✓ BG 8.12
+2026-03-06 16:08:17 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/13/
+2026-03-06 16:08:19 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_13.html
+2026-03-06 16:08:19 | DEBUG    |   ✓ BG 8.13
+2026-03-06 16:08:19 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/14/
+2026-03-06 16:08:21 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_14.html
+2026-03-06 16:08:21 | DEBUG    |   ✓ BG 8.14
+2026-03-06 16:08:21 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/15/
+2026-03-06 16:08:22 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_15.html
+2026-03-06 16:08:22 | DEBUG    |   ✓ BG 8.15
+2026-03-06 16:08:22 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/16/
+2026-03-06 16:08:23 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_16.html
+2026-03-06 16:08:23 | DEBUG    |   ✓ BG 8.16
+2026-03-06 16:08:23 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/17/
+2026-03-06 16:08:25 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_17.html
+2026-03-06 16:08:25 | DEBUG    |   ✓ BG 8.17
+2026-03-06 16:08:25 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/18/
+2026-03-06 16:08:27 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_18.html
+2026-03-06 16:08:27 | DEBUG    |   ✓ BG 8.18
+2026-03-06 16:08:27 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/19/
+2026-03-06 16:08:28 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_19.html
+2026-03-06 16:08:28 | DEBUG    |   ✓ BG 8.19
+2026-03-06 16:08:28 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/20/
+2026-03-06 16:08:29 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_20.html
+2026-03-06 16:08:29 | DEBUG    |   ✓ BG 8.20
+2026-03-06 16:08:29 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/21/
+2026-03-06 16:08:31 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_21.html
+2026-03-06 16:08:31 | DEBUG    |   ✓ BG 8.21
+2026-03-06 16:08:31 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/22/
+2026-03-06 16:08:32 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_22.html
+2026-03-06 16:08:32 | DEBUG    |   ✓ BG 8.22
+2026-03-06 16:08:32 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/23/
+2026-03-06 16:08:34 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_23.html
+2026-03-06 16:08:34 | DEBUG    |   ✓ BG 8.23
+2026-03-06 16:08:34 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/24/
+2026-03-06 16:08:36 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_24.html
+2026-03-06 16:08:36 | DEBUG    |   ✓ BG 8.24
+2026-03-06 16:08:36 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/25/
+2026-03-06 16:08:37 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_25.html
+2026-03-06 16:08:37 | DEBUG    |   ✓ BG 8.25
+2026-03-06 16:08:37 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/26/
+2026-03-06 16:08:38 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_26.html
+2026-03-06 16:08:38 | DEBUG    |   ✓ BG 8.26
+2026-03-06 16:08:38 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/27/
+2026-03-06 16:08:40 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_27.html
+2026-03-06 16:08:40 | DEBUG    |   ✓ BG 8.27
+2026-03-06 16:08:40 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/8/28/
+2026-03-06 16:08:42 | DEBUG    | Saved raw HTML → data/raw\bg\bg_8_28.html
+2026-03-06 16:08:42 | DEBUG    |   ✓ BG 8.28
+2026-03-06 16:08:42 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/1/
+2026-03-06 16:08:43 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_1.html
+2026-03-06 16:08:43 | DEBUG    |   ✓ BG 9.1
+2026-03-06 16:08:43 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/2/
+2026-03-06 16:08:45 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_2.html
+2026-03-06 16:08:45 | DEBUG    |   ✓ BG 9.2
+2026-03-06 16:08:45 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/3/
+2026-03-06 16:08:46 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_3.html
+2026-03-06 16:08:46 | DEBUG    |   ✓ BG 9.3
+2026-03-06 16:08:46 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/4/
+2026-03-06 16:08:48 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_4.html
+2026-03-06 16:08:48 | DEBUG    |   ✓ BG 9.4
+2026-03-06 16:08:48 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/5/
+2026-03-06 16:08:49 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_5.html
+2026-03-06 16:08:49 | DEBUG    |   ✓ BG 9.5
+2026-03-06 16:08:49 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/6/
+2026-03-06 16:08:51 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_6.html
+2026-03-06 16:08:51 | DEBUG    |   ✓ BG 9.6
+2026-03-06 16:08:51 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/7/
+2026-03-06 16:08:52 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_7.html
+2026-03-06 16:08:52 | DEBUG    |   ✓ BG 9.7
+2026-03-06 16:08:52 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/8/
+2026-03-06 16:08:54 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_8.html
+2026-03-06 16:08:54 | DEBUG    |   ✓ BG 9.8
+2026-03-06 16:08:54 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/9/
+2026-03-06 16:08:55 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_9.html
+2026-03-06 16:08:55 | DEBUG    |   ✓ BG 9.9
+2026-03-06 16:08:55 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/10/
+2026-03-06 16:08:57 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_10.html
+2026-03-06 16:08:57 | DEBUG    |   ✓ BG 9.10
+2026-03-06 16:08:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/11/
+2026-03-06 16:08:58 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_11.html
+2026-03-06 16:08:58 | DEBUG    |   ✓ BG 9.11
+2026-03-06 16:08:58 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/12/
+2026-03-06 16:09:00 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_12.html
+2026-03-06 16:09:00 | DEBUG    |   ✓ BG 9.12
+2026-03-06 16:09:00 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/13/
+2026-03-06 16:09:01 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_13.html
+2026-03-06 16:09:01 | DEBUG    |   ✓ BG 9.13
+2026-03-06 16:09:01 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/14/
+2026-03-06 16:09:03 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_14.html
+2026-03-06 16:09:03 | DEBUG    |   ✓ BG 9.14
+2026-03-06 16:09:03 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/15/
+2026-03-06 16:09:04 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_15.html
+2026-03-06 16:09:04 | DEBUG    |   ✓ BG 9.15
+2026-03-06 16:09:04 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/16/
+2026-03-06 16:09:06 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_16.html
+2026-03-06 16:09:06 | DEBUG    |   ✓ BG 9.16
+2026-03-06 16:09:06 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/17/
+2026-03-06 16:09:07 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_17.html
+2026-03-06 16:09:07 | DEBUG    |   ✓ BG 9.17
+2026-03-06 16:09:07 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/18/
+2026-03-06 16:09:09 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_18.html
+2026-03-06 16:09:09 | DEBUG    |   ✓ BG 9.18
+2026-03-06 16:09:09 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/19/
+2026-03-06 16:09:10 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_19.html
+2026-03-06 16:09:10 | DEBUG    |   ✓ BG 9.19
+2026-03-06 16:09:10 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/20/
+2026-03-06 16:09:12 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_20.html
+2026-03-06 16:09:12 | DEBUG    |   ✓ BG 9.20
+2026-03-06 16:09:12 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/21/
+2026-03-06 16:09:13 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_21.html
+2026-03-06 16:09:13 | DEBUG    |   ✓ BG 9.21
+2026-03-06 16:09:13 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/22/
+2026-03-06 16:09:15 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_22.html
+2026-03-06 16:09:15 | DEBUG    |   ✓ BG 9.22
+2026-03-06 16:09:15 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/23/
+2026-03-06 16:09:16 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_23.html
+2026-03-06 16:09:16 | DEBUG    |   ✓ BG 9.23
+2026-03-06 16:09:16 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/24/
+2026-03-06 16:09:18 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_24.html
+2026-03-06 16:09:18 | DEBUG    |   ✓ BG 9.24
+2026-03-06 16:09:18 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/25/
+2026-03-06 16:09:19 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_25.html
+2026-03-06 16:09:19 | DEBUG    |   ✓ BG 9.25
+2026-03-06 16:09:19 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/26/
+2026-03-06 16:09:21 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_26.html
+2026-03-06 16:09:21 | DEBUG    |   ✓ BG 9.26
+2026-03-06 16:09:21 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/27/
+2026-03-06 16:09:22 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_27.html
+2026-03-06 16:09:22 | DEBUG    |   ✓ BG 9.27
+2026-03-06 16:09:22 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/28/
+2026-03-06 16:09:24 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_28.html
+2026-03-06 16:09:24 | DEBUG    |   ✓ BG 9.28
+2026-03-06 16:09:24 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/29/
+2026-03-06 16:09:25 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_29.html
+2026-03-06 16:09:25 | DEBUG    |   ✓ BG 9.29
+2026-03-06 16:09:25 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/30/
+2026-03-06 16:09:27 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_30.html
+2026-03-06 16:09:27 | DEBUG    |   ✓ BG 9.30
+2026-03-06 16:09:27 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/31/
+2026-03-06 16:09:28 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_31.html
+2026-03-06 16:09:28 | DEBUG    |   ✓ BG 9.31
+2026-03-06 16:09:28 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/32/
+2026-03-06 16:09:30 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_32.html
+2026-03-06 16:09:30 | DEBUG    |   ✓ BG 9.32
+2026-03-06 16:09:30 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/33/
+2026-03-06 16:09:31 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_33.html
+2026-03-06 16:09:31 | DEBUG    |   ✓ BG 9.33
+2026-03-06 16:09:31 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/9/34/
+2026-03-06 16:09:33 | DEBUG    | Saved raw HTML → data/raw\bg\bg_9_34.html
+2026-03-06 16:09:33 | DEBUG    |   ✓ BG 9.34
+2026-03-06 16:09:33 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/1/
+2026-03-06 16:09:34 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_1.html
+2026-03-06 16:09:34 | DEBUG    |   ✓ BG 10.1
+2026-03-06 16:09:34 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/2/
+2026-03-06 16:09:36 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_2.html
+2026-03-06 16:09:36 | DEBUG    |   ✓ BG 10.2
+2026-03-06 16:09:36 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/3/
+2026-03-06 16:09:37 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_3.html
+2026-03-06 16:09:37 | DEBUG    |   ✓ BG 10.3
+2026-03-06 16:09:37 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/4-5/
+2026-03-06 16:09:39 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_4-5.html
+2026-03-06 16:09:39 | DEBUG    |   ✓ BG 10.4-5
+2026-03-06 16:09:39 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/6/
+2026-03-06 16:09:40 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_6.html
+2026-03-06 16:09:40 | DEBUG    |   ✓ BG 10.6
+2026-03-06 16:09:40 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/7/
+2026-03-06 16:09:42 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_7.html
+2026-03-06 16:09:42 | DEBUG    |   ✓ BG 10.7
+2026-03-06 16:09:42 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/8/
+2026-03-06 16:09:43 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_8.html
+2026-03-06 16:09:43 | DEBUG    |   ✓ BG 10.8
+2026-03-06 16:09:43 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/9/
+2026-03-06 16:09:45 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_9.html
+2026-03-06 16:09:45 | DEBUG    |   ✓ BG 10.9
+2026-03-06 16:09:45 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/10/
+2026-03-06 16:09:46 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_10.html
+2026-03-06 16:09:46 | DEBUG    |   ✓ BG 10.10
+2026-03-06 16:09:46 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/11/
+2026-03-06 16:09:48 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_11.html
+2026-03-06 16:09:48 | DEBUG    |   ✓ BG 10.11
+2026-03-06 16:09:48 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/12-13/
+2026-03-06 16:09:50 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_12-13.html
+2026-03-06 16:09:50 | DEBUG    |   ✓ BG 10.12-13
+2026-03-06 16:09:50 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/14/
+2026-03-06 16:09:51 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_14.html
+2026-03-06 16:09:51 | DEBUG    |   ✓ BG 10.14
+2026-03-06 16:09:51 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/15/
+2026-03-06 16:09:52 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_15.html
+2026-03-06 16:09:52 | DEBUG    |   ✓ BG 10.15
+2026-03-06 16:09:52 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/16/
+2026-03-06 16:09:54 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_16.html
+2026-03-06 16:09:54 | DEBUG    |   ✓ BG 10.16
+2026-03-06 16:09:54 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/17/
+2026-03-06 16:09:55 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_17.html
+2026-03-06 16:09:55 | DEBUG    |   ✓ BG 10.17
+2026-03-06 16:09:55 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/18/
+2026-03-06 16:09:57 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_18.html
+2026-03-06 16:09:57 | DEBUG    |   ✓ BG 10.18
+2026-03-06 16:09:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/19/
+2026-03-06 16:09:58 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_19.html
+2026-03-06 16:09:58 | DEBUG    |   ✓ BG 10.19
+2026-03-06 16:09:58 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/20/
+2026-03-06 16:10:00 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_20.html
+2026-03-06 16:10:00 | DEBUG    |   ✓ BG 10.20
+2026-03-06 16:10:00 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/21/
+2026-03-06 16:10:02 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_21.html
+2026-03-06 16:10:02 | DEBUG    |   ✓ BG 10.21
+2026-03-06 16:10:02 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/22/
+2026-03-06 16:10:03 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_22.html
+2026-03-06 16:10:03 | DEBUG    |   ✓ BG 10.22
+2026-03-06 16:10:03 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/23/
+2026-03-06 16:10:05 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_23.html
+2026-03-06 16:10:05 | DEBUG    |   ✓ BG 10.23
+2026-03-06 16:10:05 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/24/
+2026-03-06 16:10:06 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_24.html
+2026-03-06 16:10:06 | DEBUG    |   ✓ BG 10.24
+2026-03-06 16:10:06 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/25/
+2026-03-06 16:10:08 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_25.html
+2026-03-06 16:10:08 | DEBUG    |   ✓ BG 10.25
+2026-03-06 16:10:08 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/26/
+2026-03-06 16:10:09 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_26.html
+2026-03-06 16:10:09 | DEBUG    |   ✓ BG 10.26
+2026-03-06 16:10:09 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/27/
+2026-03-06 16:10:11 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_27.html
+2026-03-06 16:10:11 | DEBUG    |   ✓ BG 10.27
+2026-03-06 16:10:11 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/28/
+2026-03-06 16:10:12 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_28.html
+2026-03-06 16:10:12 | DEBUG    |   ✓ BG 10.28
+2026-03-06 16:10:12 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/29/
+2026-03-06 16:10:14 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_29.html
+2026-03-06 16:10:14 | DEBUG    |   ✓ BG 10.29
+2026-03-06 16:10:14 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/30/
+2026-03-06 16:10:16 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_30.html
+2026-03-06 16:10:16 | DEBUG    |   ✓ BG 10.30
+2026-03-06 16:10:16 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/31/
+2026-03-06 16:10:17 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_31.html
+2026-03-06 16:10:17 | DEBUG    |   ✓ BG 10.31
+2026-03-06 16:10:17 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/32/
+2026-03-06 16:10:19 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_32.html
+2026-03-06 16:10:19 | DEBUG    |   ✓ BG 10.32
+2026-03-06 16:10:19 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/33/
+2026-03-06 16:10:20 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_33.html
+2026-03-06 16:10:20 | DEBUG    |   ✓ BG 10.33
+2026-03-06 16:10:20 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/34/
+2026-03-06 16:10:21 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_34.html
+2026-03-06 16:10:21 | DEBUG    |   ✓ BG 10.34
+2026-03-06 16:10:21 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/35/
+2026-03-06 16:10:23 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_35.html
+2026-03-06 16:10:23 | DEBUG    |   ✓ BG 10.35
+2026-03-06 16:10:23 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/36/
+2026-03-06 16:10:24 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_36.html
+2026-03-06 16:10:25 | DEBUG    |   ✓ BG 10.36
+2026-03-06 16:10:25 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/37/
+2026-03-06 16:10:26 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_37.html
+2026-03-06 16:10:26 | DEBUG    |   ✓ BG 10.37
+2026-03-06 16:10:26 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/38/
+2026-03-06 16:10:28 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_38.html
+2026-03-06 16:10:28 | DEBUG    |   ✓ BG 10.38
+2026-03-06 16:10:28 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/39/
+2026-03-06 16:10:29 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_39.html
+2026-03-06 16:10:29 | DEBUG    |   ✓ BG 10.39
+2026-03-06 16:10:29 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/40/
+2026-03-06 16:10:31 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_40.html
+2026-03-06 16:10:31 | DEBUG    |   ✓ BG 10.40
+2026-03-06 16:10:31 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/41/
+2026-03-06 16:10:33 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_41.html
+2026-03-06 16:10:33 | DEBUG    |   ✓ BG 10.41
+2026-03-06 16:10:33 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/10/42/
+2026-03-06 16:10:34 | DEBUG    | Saved raw HTML → data/raw\bg\bg_10_42.html
+2026-03-06 16:10:34 | DEBUG    |   ✓ BG 10.42
+2026-03-06 16:10:34 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/1/
+2026-03-06 16:10:36 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_1.html
+2026-03-06 16:10:36 | DEBUG    |   ✓ BG 11.1
+2026-03-06 16:10:36 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/2/
+2026-03-06 16:10:38 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_2.html
+2026-03-06 16:10:38 | DEBUG    |   ✓ BG 11.2
+2026-03-06 16:10:38 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/3/
+2026-03-06 16:10:39 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_3.html
+2026-03-06 16:10:39 | DEBUG    |   ✓ BG 11.3
+2026-03-06 16:10:39 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/4/
+2026-03-06 16:10:40 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_4.html
+2026-03-06 16:10:40 | DEBUG    |   ✓ BG 11.4
+2026-03-06 16:10:40 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/5/
+2026-03-06 16:10:42 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_5.html
+2026-03-06 16:10:42 | DEBUG    |   ✓ BG 11.5
+2026-03-06 16:10:42 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/6/
+2026-03-06 16:10:43 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_6.html
+2026-03-06 16:10:43 | DEBUG    |   ✓ BG 11.6
+2026-03-06 16:10:43 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/7/
+2026-03-06 16:10:45 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_7.html
+2026-03-06 16:10:45 | DEBUG    |   ✓ BG 11.7
+2026-03-06 16:10:45 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/8/
+2026-03-06 16:10:46 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_8.html
+2026-03-06 16:10:46 | DEBUG    |   ✓ BG 11.8
+2026-03-06 16:10:46 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/9/
+2026-03-06 16:10:48 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_9.html
+2026-03-06 16:10:48 | DEBUG    |   ✓ BG 11.9
+2026-03-06 16:10:48 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/10-11/
+2026-03-06 16:10:50 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_10-11.html
+2026-03-06 16:10:50 | DEBUG    |   ✓ BG 11.10-11
+2026-03-06 16:10:50 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/12/
+2026-03-06 16:10:52 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_12.html
+2026-03-06 16:10:52 | DEBUG    |   ✓ BG 11.12
+2026-03-06 16:10:52 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/13/
+2026-03-06 16:10:53 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_13.html
+2026-03-06 16:10:53 | DEBUG    |   ✓ BG 11.13
+2026-03-06 16:10:53 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/14/
+2026-03-06 16:10:54 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_14.html
+2026-03-06 16:10:54 | DEBUG    |   ✓ BG 11.14
+2026-03-06 16:10:54 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/15/
+2026-03-06 16:10:56 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_15.html
+2026-03-06 16:10:56 | DEBUG    |   ✓ BG 11.15
+2026-03-06 16:10:56 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/16/
+2026-03-06 16:10:57 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_16.html
+2026-03-06 16:10:57 | DEBUG    |   ✓ BG 11.16
+2026-03-06 16:10:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/17/
+2026-03-06 16:10:59 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_17.html
+2026-03-06 16:10:59 | DEBUG    |   ✓ BG 11.17
+2026-03-06 16:10:59 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/18/
+2026-03-06 16:11:00 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_18.html
+2026-03-06 16:11:00 | DEBUG    |   ✓ BG 11.18
+2026-03-06 16:11:00 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/19/
+2026-03-06 16:11:02 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_19.html
+2026-03-06 16:11:02 | DEBUG    |   ✓ BG 11.19
+2026-03-06 16:11:02 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/20/
+2026-03-06 16:11:05 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_20.html
+2026-03-06 16:11:05 | DEBUG    |   ✓ BG 11.20
+2026-03-06 16:11:05 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/21/
+2026-03-06 16:11:06 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_21.html
+2026-03-06 16:11:06 | DEBUG    |   ✓ BG 11.21
+2026-03-06 16:11:06 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/22/
+2026-03-06 16:11:08 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_22.html
+2026-03-06 16:11:08 | DEBUG    |   ✓ BG 11.22
+2026-03-06 16:11:08 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/23/
+2026-03-06 16:11:09 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_23.html
+2026-03-06 16:11:09 | DEBUG    |   ✓ BG 11.23
+2026-03-06 16:11:09 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/24/
+2026-03-06 16:11:11 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_24.html
+2026-03-06 16:11:11 | DEBUG    |   ✓ BG 11.24
+2026-03-06 16:11:11 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/25/
+2026-03-06 16:11:12 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_25.html
+2026-03-06 16:11:12 | DEBUG    |   ✓ BG 11.25
+2026-03-06 16:11:12 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/26-27/
+2026-03-06 16:11:14 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_26-27.html
+2026-03-06 16:11:14 | DEBUG    |   ✓ BG 11.26-27
+2026-03-06 16:11:14 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/28/
+2026-03-06 16:11:17 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_28.html
+2026-03-06 16:11:17 | DEBUG    |   ✓ BG 11.28
+2026-03-06 16:11:17 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/29/
+2026-03-06 16:11:18 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_29.html
+2026-03-06 16:11:18 | DEBUG    |   ✓ BG 11.29
+2026-03-06 16:11:18 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/30/
+2026-03-06 16:11:20 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_30.html
+2026-03-06 16:11:20 | DEBUG    |   ✓ BG 11.30
+2026-03-06 16:11:20 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/31/
+2026-03-06 16:11:20 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_31.html
+2026-03-06 16:11:20 | DEBUG    |   ✓ BG 11.31
+2026-03-06 16:11:20 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/32/
+2026-03-06 16:11:22 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_32.html
+2026-03-06 16:11:22 | DEBUG    |   ✓ BG 11.32
+2026-03-06 16:11:22 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/33/
+2026-03-06 16:11:24 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_33.html
+2026-03-06 16:11:24 | DEBUG    |   ✓ BG 11.33
+2026-03-06 16:11:24 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/34/
+2026-03-06 16:11:26 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_34.html
+2026-03-06 16:11:26 | DEBUG    |   ✓ BG 11.34
+2026-03-06 16:11:26 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/35/
+2026-03-06 16:11:27 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_35.html
+2026-03-06 16:11:27 | DEBUG    |   ✓ BG 11.35
+2026-03-06 16:11:27 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/36/
+2026-03-06 16:11:28 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_36.html
+2026-03-06 16:11:28 | DEBUG    |   ✓ BG 11.36
+2026-03-06 16:11:28 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/37/
+2026-03-06 16:11:30 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_37.html
+2026-03-06 16:11:30 | DEBUG    |   ✓ BG 11.37
+2026-03-06 16:11:30 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/38/
+2026-03-06 16:11:33 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_38.html
+2026-03-06 16:11:33 | DEBUG    |   ✓ BG 11.38
+2026-03-06 16:11:33 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/39/
+2026-03-06 16:11:34 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_39.html
+2026-03-06 16:11:34 | DEBUG    |   ✓ BG 11.39
+2026-03-06 16:11:34 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/40/
+2026-03-06 16:11:37 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_40.html
+2026-03-06 16:11:37 | DEBUG    |   ✓ BG 11.40
+2026-03-06 16:11:37 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/41-42/
+2026-03-06 16:11:40 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_41-42.html
+2026-03-06 16:11:40 | DEBUG    |   ✓ BG 11.41-42
+2026-03-06 16:11:40 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/43/
+2026-03-06 16:11:41 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_43.html
+2026-03-06 16:11:41 | DEBUG    |   ✓ BG 11.43
+2026-03-06 16:11:41 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/44/
+2026-03-06 16:11:43 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_44.html
+2026-03-06 16:11:43 | DEBUG    |   ✓ BG 11.44
+2026-03-06 16:11:43 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/45/
+2026-03-06 16:11:44 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_45.html
+2026-03-06 16:11:44 | DEBUG    |   ✓ BG 11.45
+2026-03-06 16:11:44 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/46/
+2026-03-06 16:11:46 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_46.html
+2026-03-06 16:11:46 | DEBUG    |   ✓ BG 11.46
+2026-03-06 16:11:46 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/47/
+2026-03-06 16:11:47 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_47.html
+2026-03-06 16:11:47 | DEBUG    |   ✓ BG 11.47
+2026-03-06 16:11:47 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/48/
+2026-03-06 16:11:49 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_48.html
+2026-03-06 16:11:49 | DEBUG    |   ✓ BG 11.48
+2026-03-06 16:11:49 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/49/
+2026-03-06 16:11:50 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_49.html
+2026-03-06 16:11:50 | DEBUG    |   ✓ BG 11.49
+2026-03-06 16:11:50 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/50/
+2026-03-06 16:11:53 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_50.html
+2026-03-06 16:11:53 | DEBUG    |   ✓ BG 11.50
+2026-03-06 16:11:53 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/51/
+2026-03-06 16:11:55 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_51.html
+2026-03-06 16:11:55 | DEBUG    |   ✓ BG 11.51
+2026-03-06 16:11:55 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/52/
+2026-03-06 16:11:57 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_52.html
+2026-03-06 16:11:57 | DEBUG    |   ✓ BG 11.52
+2026-03-06 16:11:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/53/
+2026-03-06 16:11:59 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_53.html
+2026-03-06 16:11:59 | DEBUG    |   ✓ BG 11.53
+2026-03-06 16:11:59 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/54/
+2026-03-06 16:12:00 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_54.html
+2026-03-06 16:12:00 | DEBUG    |   ✓ BG 11.54
+2026-03-06 16:12:00 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/11/55/
+2026-03-06 16:12:03 | DEBUG    | Saved raw HTML → data/raw\bg\bg_11_55.html
+2026-03-06 16:12:03 | DEBUG    |   ✓ BG 11.55
+2026-03-06 16:12:03 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/12/1/
+2026-03-06 16:12:04 | DEBUG    | Saved raw HTML → data/raw\bg\bg_12_1.html
+2026-03-06 16:12:04 | DEBUG    |   ✓ BG 12.1
+2026-03-06 16:12:04 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/12/2/
+2026-03-06 16:12:06 | DEBUG    | Saved raw HTML → data/raw\bg\bg_12_2.html
+2026-03-06 16:12:06 | DEBUG    |   ✓ BG 12.2
+2026-03-06 16:12:06 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/12/3-4/
+2026-03-06 16:12:08 | DEBUG    | Saved raw HTML → data/raw\bg\bg_12_3-4.html
+2026-03-06 16:12:08 | DEBUG    |   ✓ BG 12.3-4
+2026-03-06 16:12:08 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/12/5/
+2026-03-06 16:12:09 | DEBUG    | Saved raw HTML → data/raw\bg\bg_12_5.html
+2026-03-06 16:12:09 | DEBUG    |   ✓ BG 12.5
+2026-03-06 16:12:09 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/12/6-7/
+2026-03-06 16:12:11 | DEBUG    | Saved raw HTML → data/raw\bg\bg_12_6-7.html
+2026-03-06 16:12:11 | DEBUG    |   ✓ BG 12.6-7
+2026-03-06 16:12:11 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/12/8/
+2026-03-06 16:12:13 | DEBUG    | Saved raw HTML → data/raw\bg\bg_12_8.html
+2026-03-06 16:12:13 | DEBUG    |   ✓ BG 12.8
+2026-03-06 16:12:13 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/12/9/
+2026-03-06 16:12:14 | DEBUG    | Saved raw HTML → data/raw\bg\bg_12_9.html
+2026-03-06 16:12:14 | DEBUG    |   ✓ BG 12.9
+2026-03-06 16:12:14 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/12/10/
+2026-03-06 16:12:16 | DEBUG    | Saved raw HTML → data/raw\bg\bg_12_10.html
+2026-03-06 16:12:16 | DEBUG    |   ✓ BG 12.10
+2026-03-06 16:12:16 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/12/11/
+2026-03-06 16:12:17 | DEBUG    | Saved raw HTML → data/raw\bg\bg_12_11.html
+2026-03-06 16:12:17 | DEBUG    |   ✓ BG 12.11
+2026-03-06 16:12:17 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/12/12/
+2026-03-06 16:12:18 | DEBUG    | Saved raw HTML → data/raw\bg\bg_12_12.html
+2026-03-06 16:12:18 | DEBUG    |   ✓ BG 12.12
+2026-03-06 16:12:18 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/12/13-14/
+2026-03-06 16:12:20 | DEBUG    | Saved raw HTML → data/raw\bg\bg_12_13-14.html
+2026-03-06 16:12:20 | DEBUG    |   ✓ BG 12.13-14
+2026-03-06 16:12:20 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/12/15/
+2026-03-06 16:12:22 | DEBUG    | Saved raw HTML → data/raw\bg\bg_12_15.html
+2026-03-06 16:12:22 | DEBUG    |   ✓ BG 12.15
+2026-03-06 16:12:22 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/12/16/
+2026-03-06 16:12:23 | DEBUG    | Saved raw HTML → data/raw\bg\bg_12_16.html
+2026-03-06 16:12:23 | DEBUG    |   ✓ BG 12.16
+2026-03-06 16:12:23 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/12/17/
+2026-03-06 16:12:25 | DEBUG    | Saved raw HTML → data/raw\bg\bg_12_17.html
+2026-03-06 16:12:25 | DEBUG    |   ✓ BG 12.17
+2026-03-06 16:12:25 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/12/18-19/
+2026-03-06 16:12:27 | DEBUG    | Saved raw HTML → data/raw\bg\bg_12_18-19.html
+2026-03-06 16:12:27 | DEBUG    |   ✓ BG 12.18-19
+2026-03-06 16:12:27 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/12/20/
+2026-03-06 16:12:28 | DEBUG    | Saved raw HTML → data/raw\bg\bg_12_20.html
+2026-03-06 16:12:28 | DEBUG    |   ✓ BG 12.20
+2026-03-06 16:12:28 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/1-2/
+2026-03-06 16:12:30 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_1-2.html
+2026-03-06 16:12:30 | DEBUG    |   ✓ BG 13.1-2
+2026-03-06 16:12:30 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/3/
+2026-03-06 16:12:32 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_3.html
+2026-03-06 16:12:32 | DEBUG    |   ✓ BG 13.3
+2026-03-06 16:12:32 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/4/
+2026-03-06 16:12:33 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_4.html
+2026-03-06 16:12:33 | DEBUG    |   ✓ BG 13.4
+2026-03-06 16:12:33 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/5/
+2026-03-06 16:12:35 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_5.html
+2026-03-06 16:12:35 | DEBUG    |   ✓ BG 13.5
+2026-03-06 16:12:35 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/6-7/
+2026-03-06 16:12:36 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_6-7.html
+2026-03-06 16:12:36 | DEBUG    |   ✓ BG 13.6-7
+2026-03-06 16:12:36 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/8-12/
+2026-03-06 16:12:38 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_8-12.html
+2026-03-06 16:12:38 | DEBUG    |   ✓ BG 13.8-12
+2026-03-06 16:12:38 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/13/
+2026-03-06 16:12:40 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_13.html
+2026-03-06 16:12:40 | DEBUG    |   ✓ BG 13.13
+2026-03-06 16:12:40 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/14/
+2026-03-06 16:12:42 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_14.html
+2026-03-06 16:12:42 | DEBUG    |   ✓ BG 13.14
+2026-03-06 16:12:42 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/15/
+2026-03-06 16:12:44 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_15.html
+2026-03-06 16:12:44 | DEBUG    |   ✓ BG 13.15
+2026-03-06 16:12:44 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/16/
+2026-03-06 16:12:45 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_16.html
+2026-03-06 16:12:45 | DEBUG    |   ✓ BG 13.16
+2026-03-06 16:12:45 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/17/
+2026-03-06 16:12:47 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_17.html
+2026-03-06 16:12:47 | DEBUG    |   ✓ BG 13.17
+2026-03-06 16:12:47 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/18/
+2026-03-06 16:12:48 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_18.html
+2026-03-06 16:12:48 | DEBUG    |   ✓ BG 13.18
+2026-03-06 16:12:48 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/19/
+2026-03-06 16:12:50 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_19.html
+2026-03-06 16:12:50 | DEBUG    |   ✓ BG 13.19
+2026-03-06 16:12:50 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/20/
+2026-03-06 16:12:51 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_20.html
+2026-03-06 16:12:51 | DEBUG    |   ✓ BG 13.20
+2026-03-06 16:12:51 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/21/
+2026-03-06 16:12:53 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_21.html
+2026-03-06 16:12:53 | DEBUG    |   ✓ BG 13.21
+2026-03-06 16:12:53 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/22/
+2026-03-06 16:12:55 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_22.html
+2026-03-06 16:12:55 | DEBUG    |   ✓ BG 13.22
+2026-03-06 16:12:55 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/23/
+2026-03-06 16:12:56 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_23.html
+2026-03-06 16:12:56 | DEBUG    |   ✓ BG 13.23
+2026-03-06 16:12:56 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/24/
+2026-03-06 16:12:57 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_24.html
+2026-03-06 16:12:57 | DEBUG    |   ✓ BG 13.24
+2026-03-06 16:12:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/25/
+2026-03-06 16:12:59 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_25.html
+2026-03-06 16:12:59 | DEBUG    |   ✓ BG 13.25
+2026-03-06 16:12:59 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/26/
+2026-03-06 16:13:00 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_26.html
+2026-03-06 16:13:00 | DEBUG    |   ✓ BG 13.26
+2026-03-06 16:13:00 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/27/
+2026-03-06 16:13:02 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_27.html
+2026-03-06 16:13:02 | DEBUG    |   ✓ BG 13.27
+2026-03-06 16:13:02 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/28/
+2026-03-06 16:13:04 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_28.html
+2026-03-06 16:13:04 | DEBUG    |   ✓ BG 13.28
+2026-03-06 16:13:04 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/29/
+2026-03-06 16:13:06 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_29.html
+2026-03-06 16:13:06 | DEBUG    |   ✓ BG 13.29
+2026-03-06 16:13:06 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/30/
+2026-03-06 16:13:07 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_30.html
+2026-03-06 16:13:07 | DEBUG    |   ✓ BG 13.30
+2026-03-06 16:13:07 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/31/
+2026-03-06 16:13:09 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_31.html
+2026-03-06 16:13:09 | DEBUG    |   ✓ BG 13.31
+2026-03-06 16:13:09 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/32/
+2026-03-06 16:13:10 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_32.html
+2026-03-06 16:13:10 | DEBUG    |   ✓ BG 13.32
+2026-03-06 16:13:10 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/33/
+2026-03-06 16:13:11 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_33.html
+2026-03-06 16:13:11 | DEBUG    |   ✓ BG 13.33
+2026-03-06 16:13:11 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/34/
+2026-03-06 16:13:13 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_34.html
+2026-03-06 16:13:13 | DEBUG    |   ✓ BG 13.34
+2026-03-06 16:13:13 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/13/35/
+2026-03-06 16:13:15 | DEBUG    | Saved raw HTML → data/raw\bg\bg_13_35.html
+2026-03-06 16:13:15 | DEBUG    |   ✓ BG 13.35
+2026-03-06 16:13:15 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/1/
+2026-03-06 16:13:16 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_1.html
+2026-03-06 16:13:16 | DEBUG    |   ✓ BG 14.1
+2026-03-06 16:13:16 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/2/
+2026-03-06 16:13:18 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_2.html
+2026-03-06 16:13:18 | DEBUG    |   ✓ BG 14.2
+2026-03-06 16:13:18 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/3/
+2026-03-06 16:13:19 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_3.html
+2026-03-06 16:13:19 | DEBUG    |   ✓ BG 14.3
+2026-03-06 16:13:19 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/4/
+2026-03-06 16:13:21 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_4.html
+2026-03-06 16:13:21 | DEBUG    |   ✓ BG 14.4
+2026-03-06 16:13:21 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/5/
+2026-03-06 16:13:22 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_5.html
+2026-03-06 16:13:22 | DEBUG    |   ✓ BG 14.5
+2026-03-06 16:13:22 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/6/
+2026-03-06 16:13:24 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_6.html
+2026-03-06 16:13:24 | DEBUG    |   ✓ BG 14.6
+2026-03-06 16:13:24 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/7/
+2026-03-06 16:13:25 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_7.html
+2026-03-06 16:13:25 | DEBUG    |   ✓ BG 14.7
+2026-03-06 16:13:25 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/8/
+2026-03-06 16:13:27 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_8.html
+2026-03-06 16:13:27 | DEBUG    |   ✓ BG 14.8
+2026-03-06 16:13:27 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/9/
+2026-03-06 16:13:28 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_9.html
+2026-03-06 16:13:28 | DEBUG    |   ✓ BG 14.9
+2026-03-06 16:13:28 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/10/
+2026-03-06 16:13:30 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_10.html
+2026-03-06 16:13:30 | DEBUG    |   ✓ BG 14.10
+2026-03-06 16:13:30 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/11/
+2026-03-06 16:13:32 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_11.html
+2026-03-06 16:13:32 | DEBUG    |   ✓ BG 14.11
+2026-03-06 16:13:32 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/12/
+2026-03-06 16:13:35 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_12.html
+2026-03-06 16:13:35 | DEBUG    |   ✓ BG 14.12
+2026-03-06 16:13:35 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/13/
+2026-03-06 16:13:36 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_13.html
+2026-03-06 16:13:36 | DEBUG    |   ✓ BG 14.13
+2026-03-06 16:13:36 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/14/
+2026-03-06 16:13:38 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_14.html
+2026-03-06 16:13:38 | DEBUG    |   ✓ BG 14.14
+2026-03-06 16:13:38 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/15/
+2026-03-06 16:13:41 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_15.html
+2026-03-06 16:13:41 | DEBUG    |   ✓ BG 14.15
+2026-03-06 16:13:41 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/16/
+2026-03-06 16:13:42 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_16.html
+2026-03-06 16:13:42 | DEBUG    |   ✓ BG 14.16
+2026-03-06 16:13:42 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/17/
+2026-03-06 16:13:43 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_17.html
+2026-03-06 16:13:43 | DEBUG    |   ✓ BG 14.17
+2026-03-06 16:13:43 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/18/
+2026-03-06 16:13:45 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_18.html
+2026-03-06 16:13:45 | DEBUG    |   ✓ BG 14.18
+2026-03-06 16:13:45 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/19/
+2026-03-06 16:13:46 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_19.html
+2026-03-06 16:13:46 | DEBUG    |   ✓ BG 14.19
+2026-03-06 16:13:46 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/20/
+2026-03-06 16:13:48 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_20.html
+2026-03-06 16:13:48 | DEBUG    |   ✓ BG 14.20
+2026-03-06 16:13:48 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/21/
+2026-03-06 16:13:49 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_21.html
+2026-03-06 16:13:49 | DEBUG    |   ✓ BG 14.21
+2026-03-06 16:13:49 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/22-25/
+2026-03-06 16:13:51 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_22-25.html
+2026-03-06 16:13:51 | DEBUG    |   ✓ BG 14.22-25
+2026-03-06 16:13:51 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/26/
+2026-03-06 16:13:52 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_26.html
+2026-03-06 16:13:52 | DEBUG    |   ✓ BG 14.26
+2026-03-06 16:13:52 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/14/27/
+2026-03-06 16:13:54 | DEBUG    | Saved raw HTML → data/raw\bg\bg_14_27.html
+2026-03-06 16:13:54 | DEBUG    |   ✓ BG 14.27
+2026-03-06 16:13:54 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/1/
+2026-03-06 16:13:55 | DEBUG    | Saved raw HTML → data/raw\bg\bg_15_1.html
+2026-03-06 16:13:55 | DEBUG    |   ✓ BG 15.1
+2026-03-06 16:13:55 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/2/
+2026-03-06 16:13:57 | DEBUG    | Saved raw HTML → data/raw\bg\bg_15_2.html
+2026-03-06 16:13:57 | DEBUG    |   ✓ BG 15.2
+2026-03-06 16:13:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/3-4/
+2026-03-06 16:13:58 | DEBUG    | Saved raw HTML → data/raw\bg\bg_15_3-4.html
+2026-03-06 16:13:58 | DEBUG    |   ✓ BG 15.3-4
+2026-03-06 16:13:58 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/5/
+2026-03-06 16:14:00 | DEBUG    | Saved raw HTML → data/raw\bg\bg_15_5.html
+2026-03-06 16:14:00 | DEBUG    |   ✓ BG 15.5
+2026-03-06 16:14:00 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/6/
+2026-03-06 16:14:01 | DEBUG    | Saved raw HTML → data/raw\bg\bg_15_6.html
+2026-03-06 16:14:01 | DEBUG    |   ✓ BG 15.6
+2026-03-06 16:14:01 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/7/
+2026-03-06 16:14:03 | DEBUG    | Saved raw HTML → data/raw\bg\bg_15_7.html
+2026-03-06 16:14:03 | DEBUG    |   ✓ BG 15.7
+2026-03-06 16:14:03 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/8/
+2026-03-06 16:14:05 | DEBUG    | Saved raw HTML → data/raw\bg\bg_15_8.html
+2026-03-06 16:14:05 | DEBUG    |   ✓ BG 15.8
+2026-03-06 16:14:05 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/9/
+2026-03-06 16:14:06 | DEBUG    | Saved raw HTML → data/raw\bg\bg_15_9.html
+2026-03-06 16:14:06 | DEBUG    |   ✓ BG 15.9
+2026-03-06 16:14:06 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/10/
+2026-03-06 16:14:08 | DEBUG    | Saved raw HTML → data/raw\bg\bg_15_10.html
+2026-03-06 16:14:08 | DEBUG    |   ✓ BG 15.10
+2026-03-06 16:14:08 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/11/
+2026-03-06 16:14:09 | DEBUG    | Saved raw HTML → data/raw\bg\bg_15_11.html
+2026-03-06 16:14:09 | DEBUG    |   ✓ BG 15.11
+2026-03-06 16:14:09 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/12/
+2026-03-06 16:14:11 | DEBUG    | Saved raw HTML → data/raw\bg\bg_15_12.html
+2026-03-06 16:14:11 | DEBUG    |   ✓ BG 15.12
+2026-03-06 16:14:11 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/13/
+2026-03-06 16:14:12 | DEBUG    | Saved raw HTML → data/raw\bg\bg_15_13.html
+2026-03-06 16:14:12 | DEBUG    |   ✓ BG 15.13
+2026-03-06 16:14:12 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/14/
+2026-03-06 16:14:15 | DEBUG    | Saved raw HTML → data/raw\bg\bg_15_14.html
+2026-03-06 16:14:15 | DEBUG    |   ✓ BG 15.14
+2026-03-06 16:14:15 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/15/
+2026-03-06 16:14:17 | DEBUG    | Saved raw HTML → data/raw\bg\bg_15_15.html
+2026-03-06 16:14:17 | DEBUG    |   ✓ BG 15.15
+2026-03-06 16:14:17 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/16/
+2026-03-06 16:14:18 | DEBUG    | Saved raw HTML → data/raw\bg\bg_15_16.html
+2026-03-06 16:14:18 | DEBUG    |   ✓ BG 15.16
+2026-03-06 16:14:18 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/17/
+2026-03-06 16:14:19 | DEBUG    | Saved raw HTML → data/raw\bg\bg_15_17.html
+2026-03-06 16:14:19 | DEBUG    |   ✓ BG 15.17
+2026-03-06 16:14:19 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/18/
+2026-03-06 16:14:21 | DEBUG    | Saved raw HTML → data/raw\bg\bg_15_18.html
+2026-03-06 16:14:21 | DEBUG    |   ✓ BG 15.18
+2026-03-06 16:14:21 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/19/
+2026-03-06 16:14:22 | DEBUG    | Saved raw HTML → data/raw\bg\bg_15_19.html
+2026-03-06 16:14:22 | DEBUG    |   ✓ BG 15.19
+2026-03-06 16:14:22 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/15/20/
+2026-03-06 16:14:24 | DEBUG    | Saved raw HTML → data/raw\bg\bg_15_20.html
+2026-03-06 16:14:24 | DEBUG    |   ✓ BG 15.20
+2026-03-06 16:14:24 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/1-3/
+2026-03-06 16:14:26 | DEBUG    | Saved raw HTML → data/raw\bg\bg_16_1-3.html
+2026-03-06 16:14:26 | DEBUG    |   ✓ BG 16.1-3
+2026-03-06 16:14:26 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/4/
+2026-03-06 16:14:28 | DEBUG    | Saved raw HTML → data/raw\bg\bg_16_4.html
+2026-03-06 16:14:28 | DEBUG    |   ✓ BG 16.4
+2026-03-06 16:14:28 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/5/
+2026-03-06 16:14:29 | DEBUG    | Saved raw HTML → data/raw\bg\bg_16_5.html
+2026-03-06 16:14:29 | DEBUG    |   ✓ BG 16.5
+2026-03-06 16:14:29 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/6/
+2026-03-06 16:14:31 | DEBUG    | Saved raw HTML → data/raw\bg\bg_16_6.html
+2026-03-06 16:14:31 | DEBUG    |   ✓ BG 16.6
+2026-03-06 16:14:31 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/7/
+2026-03-06 16:14:32 | DEBUG    | Saved raw HTML → data/raw\bg\bg_16_7.html
+2026-03-06 16:14:32 | DEBUG    |   ✓ BG 16.7
+2026-03-06 16:14:32 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/8/
+2026-03-06 16:14:33 | DEBUG    | Saved raw HTML → data/raw\bg\bg_16_8.html
+2026-03-06 16:14:33 | DEBUG    |   ✓ BG 16.8
+2026-03-06 16:14:33 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/9/
+2026-03-06 16:14:35 | DEBUG    | Saved raw HTML → data/raw\bg\bg_16_9.html
+2026-03-06 16:14:35 | DEBUG    |   ✓ BG 16.9
+2026-03-06 16:14:35 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/10/
+2026-03-06 16:14:36 | DEBUG    | Saved raw HTML → data/raw\bg\bg_16_10.html
+2026-03-06 16:14:36 | DEBUG    |   ✓ BG 16.10
+2026-03-06 16:14:36 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/11-12/
+2026-03-06 16:14:38 | DEBUG    | Saved raw HTML → data/raw\bg\bg_16_11-12.html
+2026-03-06 16:14:38 | DEBUG    |   ✓ BG 16.11-12
+2026-03-06 16:14:38 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/13-15/
+2026-03-06 16:14:40 | DEBUG    | Saved raw HTML → data/raw\bg\bg_16_13-15.html
+2026-03-06 16:14:40 | DEBUG    |   ✓ BG 16.13-15
+2026-03-06 16:14:40 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/16/
+2026-03-06 16:14:41 | DEBUG    | Saved raw HTML → data/raw\bg\bg_16_16.html
+2026-03-06 16:14:41 | DEBUG    |   ✓ BG 16.16
+2026-03-06 16:14:41 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/17/
+2026-03-06 16:14:44 | DEBUG    | Saved raw HTML → data/raw\bg\bg_16_17.html
+2026-03-06 16:14:44 | DEBUG    |   ✓ BG 16.17
+2026-03-06 16:14:44 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/18/
+2026-03-06 16:14:46 | DEBUG    | Saved raw HTML → data/raw\bg\bg_16_18.html
+2026-03-06 16:14:46 | DEBUG    |   ✓ BG 16.18
+2026-03-06 16:14:46 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/19/
+2026-03-06 16:14:47 | DEBUG    | Saved raw HTML → data/raw\bg\bg_16_19.html
+2026-03-06 16:14:47 | DEBUG    |   ✓ BG 16.19
+2026-03-06 16:14:47 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/20/
+2026-03-06 16:14:49 | DEBUG    | Saved raw HTML → data/raw\bg\bg_16_20.html
+2026-03-06 16:14:49 | DEBUG    |   ✓ BG 16.20
+2026-03-06 16:14:49 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/21/
+2026-03-06 16:14:50 | DEBUG    | Saved raw HTML → data/raw\bg\bg_16_21.html
+2026-03-06 16:14:50 | DEBUG    |   ✓ BG 16.21
+2026-03-06 16:14:50 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/22/
+2026-03-06 16:14:52 | DEBUG    | Saved raw HTML → data/raw\bg\bg_16_22.html
+2026-03-06 16:14:52 | DEBUG    |   ✓ BG 16.22
+2026-03-06 16:14:52 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/23/
+2026-03-06 16:14:53 | DEBUG    | Saved raw HTML → data/raw\bg\bg_16_23.html
+2026-03-06 16:14:53 | DEBUG    |   ✓ BG 16.23
+2026-03-06 16:14:53 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/16/24/
+2026-03-06 16:14:55 | DEBUG    | Saved raw HTML → data/raw\bg\bg_16_24.html
+2026-03-06 16:14:55 | DEBUG    |   ✓ BG 16.24
+2026-03-06 16:14:55 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/1/
+2026-03-06 16:14:57 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_1.html
+2026-03-06 16:14:57 | DEBUG    |   ✓ BG 17.1
+2026-03-06 16:14:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/2/
+2026-03-06 16:14:58 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_2.html
+2026-03-06 16:14:58 | DEBUG    |   ✓ BG 17.2
+2026-03-06 16:14:58 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/3/
+2026-03-06 16:15:00 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_3.html
+2026-03-06 16:15:00 | DEBUG    |   ✓ BG 17.3
+2026-03-06 16:15:00 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/4/
+2026-03-06 16:15:02 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_4.html
+2026-03-06 16:15:02 | DEBUG    |   ✓ BG 17.4
+2026-03-06 16:15:02 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/5-6/
+2026-03-06 16:15:04 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_5-6.html
+2026-03-06 16:15:04 | DEBUG    |   ✓ BG 17.5-6
+2026-03-06 16:15:04 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/7/
+2026-03-06 16:15:05 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_7.html
+2026-03-06 16:15:05 | DEBUG    |   ✓ BG 17.7
+2026-03-06 16:15:05 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/8/
+2026-03-06 16:15:07 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_8.html
+2026-03-06 16:15:07 | DEBUG    |   ✓ BG 17.8
+2026-03-06 16:15:07 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/9/
+2026-03-06 16:15:08 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_9.html
+2026-03-06 16:15:08 | DEBUG    |   ✓ BG 17.9
+2026-03-06 16:15:08 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/10/
+2026-03-06 16:15:10 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_10.html
+2026-03-06 16:15:10 | DEBUG    |   ✓ BG 17.10
+2026-03-06 16:15:10 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/11/
+2026-03-06 16:15:11 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_11.html
+2026-03-06 16:15:11 | DEBUG    |   ✓ BG 17.11
+2026-03-06 16:15:11 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/12/
+2026-03-06 16:15:13 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_12.html
+2026-03-06 16:15:13 | DEBUG    |   ✓ BG 17.12
+2026-03-06 16:15:13 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/13/
+2026-03-06 16:15:16 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_13.html
+2026-03-06 16:15:16 | DEBUG    |   ✓ BG 17.13
+2026-03-06 16:15:16 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/14/
+2026-03-06 16:15:17 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_14.html
+2026-03-06 16:15:17 | DEBUG    |   ✓ BG 17.14
+2026-03-06 16:15:17 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/15/
+2026-03-06 16:15:19 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_15.html
+2026-03-06 16:15:19 | DEBUG    |   ✓ BG 17.15
+2026-03-06 16:15:19 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/16/
+2026-03-06 16:15:20 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_16.html
+2026-03-06 16:15:20 | DEBUG    |   ✓ BG 17.16
+2026-03-06 16:15:20 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/17/
+2026-03-06 16:15:21 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_17.html
+2026-03-06 16:15:21 | DEBUG    |   ✓ BG 17.17
+2026-03-06 16:15:21 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/18/
+2026-03-06 16:15:28 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_18.html
+2026-03-06 16:15:28 | DEBUG    |   ✓ BG 17.18
+2026-03-06 16:15:28 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/19/
+2026-03-06 16:15:29 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_19.html
+2026-03-06 16:15:29 | DEBUG    |   ✓ BG 17.19
+2026-03-06 16:15:29 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/20/
+2026-03-06 16:15:32 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_20.html
+2026-03-06 16:15:32 | DEBUG    |   ✓ BG 17.20
+2026-03-06 16:15:32 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/21/
+2026-03-06 16:15:34 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_21.html
+2026-03-06 16:15:34 | DEBUG    |   ✓ BG 17.21
+2026-03-06 16:15:34 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/22/
+2026-03-06 16:15:37 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_22.html
+2026-03-06 16:15:37 | DEBUG    |   ✓ BG 17.22
+2026-03-06 16:15:37 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/23/
+2026-03-06 16:15:39 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_23.html
+2026-03-06 16:15:39 | DEBUG    |   ✓ BG 17.23
+2026-03-06 16:15:39 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/24/
+2026-03-06 16:15:40 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_24.html
+2026-03-06 16:15:40 | DEBUG    |   ✓ BG 17.24
+2026-03-06 16:15:40 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/25/
+2026-03-06 16:15:43 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_25.html
+2026-03-06 16:15:43 | DEBUG    |   ✓ BG 17.25
+2026-03-06 16:15:43 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/26-27/
+2026-03-06 16:15:44 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_26-27.html
+2026-03-06 16:15:44 | DEBUG    |   ✓ BG 17.26-27
+2026-03-06 16:15:44 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/17/28/
+2026-03-06 16:15:46 | DEBUG    | Saved raw HTML → data/raw\bg\bg_17_28.html
+2026-03-06 16:15:46 | DEBUG    |   ✓ BG 17.28
+2026-03-06 16:15:46 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/1/
+2026-03-06 16:15:48 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_1.html
+2026-03-06 16:15:48 | DEBUG    |   ✓ BG 18.1
+2026-03-06 16:15:48 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/2/
+2026-03-06 16:15:49 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_2.html
+2026-03-06 16:15:49 | DEBUG    |   ✓ BG 18.2
+2026-03-06 16:15:49 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/3/
+2026-03-06 16:15:51 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_3.html
+2026-03-06 16:15:51 | DEBUG    |   ✓ BG 18.3
+2026-03-06 16:15:51 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/4/
+2026-03-06 16:15:52 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_4.html
+2026-03-06 16:15:52 | DEBUG    |   ✓ BG 18.4
+2026-03-06 16:15:52 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/5/
+2026-03-06 16:15:54 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_5.html
+2026-03-06 16:15:54 | DEBUG    |   ✓ BG 18.5
+2026-03-06 16:15:54 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/6/
+2026-03-06 16:15:57 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_6.html
+2026-03-06 16:15:57 | DEBUG    |   ✓ BG 18.6
+2026-03-06 16:15:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/7/
+2026-03-06 16:15:59 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_7.html
+2026-03-06 16:15:59 | DEBUG    |   ✓ BG 18.7
+2026-03-06 16:15:59 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/8/
+2026-03-06 16:16:00 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_8.html
+2026-03-06 16:16:00 | DEBUG    |   ✓ BG 18.8
+2026-03-06 16:16:00 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/9/
+2026-03-06 16:16:02 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_9.html
+2026-03-06 16:16:02 | DEBUG    |   ✓ BG 18.9
+2026-03-06 16:16:02 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/10/
+2026-03-06 16:16:04 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_10.html
+2026-03-06 16:16:04 | DEBUG    |   ✓ BG 18.10
+2026-03-06 16:16:04 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/11/
+2026-03-06 16:16:06 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_11.html
+2026-03-06 16:16:06 | DEBUG    |   ✓ BG 18.11
+2026-03-06 16:16:06 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/12/
+2026-03-06 16:16:08 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_12.html
+2026-03-06 16:16:08 | DEBUG    |   ✓ BG 18.12
+2026-03-06 16:16:08 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/13/
+2026-03-06 16:16:10 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_13.html
+2026-03-06 16:16:10 | DEBUG    |   ✓ BG 18.13
+2026-03-06 16:16:10 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/14/
+2026-03-06 16:16:11 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_14.html
+2026-03-06 16:16:11 | DEBUG    |   ✓ BG 18.14
+2026-03-06 16:16:11 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/15/
+2026-03-06 16:16:13 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_15.html
+2026-03-06 16:16:13 | DEBUG    |   ✓ BG 18.15
+2026-03-06 16:16:13 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/16/
+2026-03-06 16:16:16 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_16.html
+2026-03-06 16:16:16 | DEBUG    |   ✓ BG 18.16
+2026-03-06 16:16:16 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/17/
+2026-03-06 16:16:17 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_17.html
+2026-03-06 16:16:17 | DEBUG    |   ✓ BG 18.17
+2026-03-06 16:16:17 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/18/
+2026-03-06 16:16:19 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_18.html
+2026-03-06 16:16:19 | DEBUG    |   ✓ BG 18.18
+2026-03-06 16:16:19 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/19/
+2026-03-06 16:16:21 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_19.html
+2026-03-06 16:16:21 | DEBUG    |   ✓ BG 18.19
+2026-03-06 16:16:21 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/20/
+2026-03-06 16:16:23 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_20.html
+2026-03-06 16:16:23 | DEBUG    |   ✓ BG 18.20
+2026-03-06 16:16:23 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/21/
+2026-03-06 16:16:24 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_21.html
+2026-03-06 16:16:24 | DEBUG    |   ✓ BG 18.21
+2026-03-06 16:16:24 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/22/
+2026-03-06 16:16:43 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_22.html
+2026-03-06 16:16:43 | DEBUG    |   ✓ BG 18.22
+2026-03-06 16:16:43 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/23/
+2026-03-06 16:16:44 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_23.html
+2026-03-06 16:16:44 | DEBUG    |   ✓ BG 18.23
+2026-03-06 16:16:44 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/24/
+2026-03-06 16:16:46 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_24.html
+2026-03-06 16:16:46 | DEBUG    |   ✓ BG 18.24
+2026-03-06 16:16:46 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/25/
+2026-03-06 16:16:47 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_25.html
+2026-03-06 16:16:47 | DEBUG    |   ✓ BG 18.25
+2026-03-06 16:16:47 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/26/
+2026-03-06 16:16:49 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_26.html
+2026-03-06 16:16:49 | DEBUG    |   ✓ BG 18.26
+2026-03-06 16:16:49 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/27/
+2026-03-06 16:16:50 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_27.html
+2026-03-06 16:16:50 | DEBUG    |   ✓ BG 18.27
+2026-03-06 16:16:50 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/28/
+2026-03-06 16:16:52 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_28.html
+2026-03-06 16:16:52 | DEBUG    |   ✓ BG 18.28
+2026-03-06 16:16:52 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/29/
+2026-03-06 16:16:54 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_29.html
+2026-03-06 16:16:54 | DEBUG    |   ✓ BG 18.29
+2026-03-06 16:16:54 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/30/
+2026-03-06 16:16:56 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_30.html
+2026-03-06 16:16:56 | DEBUG    |   ✓ BG 18.30
+2026-03-06 16:16:56 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/31/
+2026-03-06 16:16:57 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_31.html
+2026-03-06 16:16:57 | DEBUG    |   ✓ BG 18.31
+2026-03-06 16:16:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/32/
+2026-03-06 16:16:59 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_32.html
+2026-03-06 16:16:59 | DEBUG    |   ✓ BG 18.32
+2026-03-06 16:16:59 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/33/
+2026-03-06 16:17:01 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_33.html
+2026-03-06 16:17:01 | DEBUG    |   ✓ BG 18.33
+2026-03-06 16:17:01 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/34/
+2026-03-06 16:17:02 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_34.html
+2026-03-06 16:17:02 | DEBUG    |   ✓ BG 18.34
+2026-03-06 16:17:02 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/35/
+2026-03-06 16:17:03 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_35.html
+2026-03-06 16:17:03 | DEBUG    |   ✓ BG 18.35
+2026-03-06 16:17:03 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/36/
+2026-03-06 16:17:13 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_36.html
+2026-03-06 16:17:13 | DEBUG    |   ✓ BG 18.36
+2026-03-06 16:17:13 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/37/
+2026-03-06 16:17:16 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_37.html
+2026-03-06 16:17:16 | DEBUG    |   ✓ BG 18.37
+2026-03-06 16:17:16 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/38/
+2026-03-06 16:17:19 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_38.html
+2026-03-06 16:17:19 | DEBUG    |   ✓ BG 18.38
+2026-03-06 16:17:19 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/39/
+2026-03-06 16:17:21 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_39.html
+2026-03-06 16:17:21 | DEBUG    |   ✓ BG 18.39
+2026-03-06 16:17:21 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/40/
+2026-03-06 16:17:23 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_40.html
+2026-03-06 16:17:23 | DEBUG    |   ✓ BG 18.40
+2026-03-06 16:17:23 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/41/
+2026-03-06 16:17:26 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_41.html
+2026-03-06 16:17:26 | DEBUG    |   ✓ BG 18.41
+2026-03-06 16:17:26 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/42/
+2026-03-06 16:17:28 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_42.html
+2026-03-06 16:17:28 | DEBUG    |   ✓ BG 18.42
+2026-03-06 16:17:28 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/43/
+2026-03-06 16:17:29 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_43.html
+2026-03-06 16:17:29 | DEBUG    |   ✓ BG 18.43
+2026-03-06 16:17:29 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/44/
+2026-03-06 16:17:32 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_44.html
+2026-03-06 16:17:32 | DEBUG    |   ✓ BG 18.44
+2026-03-06 16:17:32 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/45/
+2026-03-06 16:17:35 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_45.html
+2026-03-06 16:17:35 | DEBUG    |   ✓ BG 18.45
+2026-03-06 16:17:35 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/46/
+2026-03-06 16:17:37 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_46.html
+2026-03-06 16:17:37 | DEBUG    |   ✓ BG 18.46
+2026-03-06 16:17:37 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/47/
+2026-03-06 16:17:39 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_47.html
+2026-03-06 16:17:39 | DEBUG    |   ✓ BG 18.47
+2026-03-06 16:17:39 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/48/
+2026-03-06 16:17:41 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_48.html
+2026-03-06 16:17:41 | DEBUG    |   ✓ BG 18.48
+2026-03-06 16:17:41 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/49/
+2026-03-06 16:17:42 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_49.html
+2026-03-06 16:17:42 | DEBUG    |   ✓ BG 18.49
+2026-03-06 16:17:42 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/50/
+2026-03-06 16:17:44 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_50.html
+2026-03-06 16:17:44 | DEBUG    |   ✓ BG 18.50
+2026-03-06 16:17:44 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/51-53/
+2026-03-06 16:17:46 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_51-53.html
+2026-03-06 16:17:46 | DEBUG    |   ✓ BG 18.51-53
+2026-03-06 16:17:46 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/54/
+2026-03-06 16:17:48 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_54.html
+2026-03-06 16:17:48 | DEBUG    |   ✓ BG 18.54
+2026-03-06 16:17:48 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/55/
+2026-03-06 16:17:51 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_55.html
+2026-03-06 16:17:51 | DEBUG    |   ✓ BG 18.55
+2026-03-06 16:17:51 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/56/
+2026-03-06 16:17:52 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_56.html
+2026-03-06 16:17:52 | DEBUG    |   ✓ BG 18.56
+2026-03-06 16:17:52 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/57/
+2026-03-06 16:17:54 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_57.html
+2026-03-06 16:17:54 | DEBUG    |   ✓ BG 18.57
+2026-03-06 16:17:54 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/58/
+2026-03-06 16:17:55 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_58.html
+2026-03-06 16:17:55 | DEBUG    |   ✓ BG 18.58
+2026-03-06 16:17:55 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/59/
+2026-03-06 16:17:57 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_59.html
+2026-03-06 16:17:57 | DEBUG    |   ✓ BG 18.59
+2026-03-06 16:17:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/60/
+2026-03-06 16:18:00 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_60.html
+2026-03-06 16:18:00 | DEBUG    |   ✓ BG 18.60
+2026-03-06 16:18:00 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/61/
+2026-03-06 16:18:02 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_61.html
+2026-03-06 16:18:02 | DEBUG    |   ✓ BG 18.61
+2026-03-06 16:18:02 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/62/
+2026-03-06 16:18:08 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_62.html
+2026-03-06 16:18:08 | DEBUG    |   ✓ BG 18.62
+2026-03-06 16:18:08 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/63/
+2026-03-06 16:18:10 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_63.html
+2026-03-06 16:18:10 | DEBUG    |   ✓ BG 18.63
+2026-03-06 16:18:10 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/64/
+2026-03-06 16:18:12 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_64.html
+2026-03-06 16:18:12 | DEBUG    |   ✓ BG 18.64
+2026-03-06 16:18:12 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/65/
+2026-03-06 16:18:13 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_65.html
+2026-03-06 16:18:13 | DEBUG    |   ✓ BG 18.65
+2026-03-06 16:18:13 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/66/
+2026-03-06 16:18:15 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_66.html
+2026-03-06 16:18:15 | DEBUG    |   ✓ BG 18.66
+2026-03-06 16:18:15 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/67/
+2026-03-06 16:18:18 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_67.html
+2026-03-06 16:18:18 | DEBUG    |   ✓ BG 18.67
+2026-03-06 16:18:18 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/68/
+2026-03-06 16:18:20 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_68.html
+2026-03-06 16:18:20 | DEBUG    |   ✓ BG 18.68
+2026-03-06 16:18:20 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/69/
+2026-03-06 16:18:22 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_69.html
+2026-03-06 16:18:22 | DEBUG    |   ✓ BG 18.69
+2026-03-06 16:18:22 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/70/
+2026-03-06 16:18:23 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_70.html
+2026-03-06 16:18:23 | DEBUG    |   ✓ BG 18.70
+2026-03-06 16:18:23 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/71/
+2026-03-06 16:18:25 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_71.html
+2026-03-06 16:18:25 | DEBUG    |   ✓ BG 18.71
+2026-03-06 16:18:25 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/72/
+2026-03-06 16:18:27 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_72.html
+2026-03-06 16:18:27 | DEBUG    |   ✓ BG 18.72
+2026-03-06 16:18:27 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/73/
+2026-03-06 16:18:28 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_73.html
+2026-03-06 16:18:28 | DEBUG    |   ✓ BG 18.73
+2026-03-06 16:18:28 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/74/
+2026-03-06 16:18:31 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_74.html
+2026-03-06 16:18:31 | DEBUG    |   ✓ BG 18.74
+2026-03-06 16:18:31 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/75/
+2026-03-06 16:18:32 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_75.html
+2026-03-06 16:18:32 | DEBUG    |   ✓ BG 18.75
+2026-03-06 16:18:32 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/76/
+2026-03-06 16:18:34 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_76.html
+2026-03-06 16:18:34 | DEBUG    |   ✓ BG 18.76
+2026-03-06 16:18:34 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/77/
+2026-03-06 16:18:36 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_77.html
+2026-03-06 16:18:36 | DEBUG    |   ✓ BG 18.77
+2026-03-06 16:18:36 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bg/18/78/
+2026-03-06 16:18:39 | DEBUG    | Saved raw HTML → data/raw\bg\bg_18_78.html
+2026-03-06 16:18:39 | DEBUG    |   ✓ BG 18.78
+2026-03-06 16:18:39 | INFO     | 
+============================================================
+2026-03-06 16:18:39 | INFO     | Bhagavad Gita As It Is scrape complete.
+2026-03-06 16:18:39 | INFO     |   Pages scraped : 657
+2026-03-06 16:18:39 | INFO     |   Failed        : 0
+2026-03-06 16:18:39 | INFO     | ============================================================
+
+2026-03-06 16:18:39 | INFO     | Saved 657 records → data/scraped\bg_raw.json
+2026-03-06 16:18:39 | INFO     | ============================================================
+2026-03-06 16:18:39 | INFO     | ALL SCRAPING COMPLETE
+2026-03-06 16:18:39 | INFO     |   Bhagavad Gita As It Is              657 records
+2026-03-06 16:18:39 | INFO     | ============================================================
+2026-03-10 10:50:45 | INFO     | Books to scrape : ['bs']
+2026-03-10 10:50:45 | INFO     | Request delay   : 1.5s
+2026-03-10 10:50:45 | INFO     | Resume mode     : True
+2026-03-10 10:50:45 | INFO     | 
+2026-03-10 10:50:45 | INFO     | ============================================================
+2026-03-10 10:50:45 | INFO     | Starting scrape: Brahma Samhita
+2026-03-10 10:50:45 | INFO     | ============================================================
+2026-03-10 10:50:45 | INFO     | Fetching BS 5.1 → https://vedabase.io/en/library/bs/5/1/
+2026-03-10 10:50:45 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/1/
+2026-03-10 10:50:46 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_1.html
+2026-03-10 10:50:46 | DEBUG    |   ✓ BS 5.1
+2026-03-10 10:50:46 | INFO     | Fetching BS 5.2 → https://vedabase.io/en/library/bs/5/2/
+2026-03-10 10:50:46 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/2/
+2026-03-10 10:50:47 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_2.html
+2026-03-10 10:50:47 | DEBUG    |   ✓ BS 5.2
+2026-03-10 10:50:47 | INFO     | Fetching BS 5.3 → https://vedabase.io/en/library/bs/5/3/
+2026-03-10 10:50:47 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/3/
+2026-03-10 10:50:49 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_3.html
+2026-03-10 10:50:49 | DEBUG    |   ✓ BS 5.3
+2026-03-10 10:50:49 | INFO     | Fetching BS 5.4 → https://vedabase.io/en/library/bs/5/4/
+2026-03-10 10:50:49 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/4/
+2026-03-10 10:50:50 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_4.html
+2026-03-10 10:50:50 | DEBUG    |   ✓ BS 5.4
+2026-03-10 10:50:50 | INFO     | Fetching BS 5.5 → https://vedabase.io/en/library/bs/5/5/
+2026-03-10 10:50:50 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/5/
+2026-03-10 10:50:52 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_5.html
+2026-03-10 10:50:52 | DEBUG    |   ✓ BS 5.5
+2026-03-10 10:50:52 | INFO     | Fetching BS 5.6 → https://vedabase.io/en/library/bs/5/6/
+2026-03-10 10:50:52 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/6/
+2026-03-10 10:50:53 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_6.html
+2026-03-10 10:50:53 | DEBUG    |   ✓ BS 5.6
+2026-03-10 10:50:53 | INFO     | Fetching BS 5.7 → https://vedabase.io/en/library/bs/5/7/
+2026-03-10 10:50:53 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/7/
+2026-03-10 10:50:55 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_7.html
+2026-03-10 10:50:55 | DEBUG    |   ✓ BS 5.7
+2026-03-10 10:50:55 | INFO     | Fetching BS 5.8 → https://vedabase.io/en/library/bs/5/8/
+2026-03-10 10:50:55 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/8/
+2026-03-10 10:50:56 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_8.html
+2026-03-10 10:50:56 | DEBUG    |   ✓ BS 5.8
+2026-03-10 10:50:56 | INFO     | Fetching BS 5.9 → https://vedabase.io/en/library/bs/5/9/
+2026-03-10 10:50:56 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/9/
+2026-03-10 10:50:58 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_9.html
+2026-03-10 10:50:58 | DEBUG    |   ✓ BS 5.9
+2026-03-10 10:50:58 | INFO     | Fetching BS 5.10 → https://vedabase.io/en/library/bs/5/10/
+2026-03-10 10:50:58 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/10/
+2026-03-10 10:50:59 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_10.html
+2026-03-10 10:50:59 | DEBUG    |   ✓ BS 5.10
+2026-03-10 10:50:59 | INFO     | Fetching BS 5.11 → https://vedabase.io/en/library/bs/5/11/
+2026-03-10 10:50:59 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/11/
+2026-03-10 10:51:01 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_11.html
+2026-03-10 10:51:01 | DEBUG    |   ✓ BS 5.11
+2026-03-10 10:51:01 | INFO     | Fetching BS 5.12 → https://vedabase.io/en/library/bs/5/12/
+2026-03-10 10:51:01 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/12/
+2026-03-10 10:51:02 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_12.html
+2026-03-10 10:51:02 | DEBUG    |   ✓ BS 5.12
+2026-03-10 10:51:02 | INFO     | Fetching BS 5.13 → https://vedabase.io/en/library/bs/5/13/
+2026-03-10 10:51:02 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/13/
+2026-03-10 10:51:04 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_13.html
+2026-03-10 10:51:04 | DEBUG    |   ✓ BS 5.13
+2026-03-10 10:51:04 | INFO     | Fetching BS 5.14 → https://vedabase.io/en/library/bs/5/14/
+2026-03-10 10:51:04 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/14/
+2026-03-10 10:51:05 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_14.html
+2026-03-10 10:51:05 | DEBUG    |   ✓ BS 5.14
+2026-03-10 10:51:05 | INFO     | Fetching BS 5.15 → https://vedabase.io/en/library/bs/5/15/
+2026-03-10 10:51:05 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/15/
+2026-03-10 10:51:07 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_15.html
+2026-03-10 10:51:07 | DEBUG    |   ✓ BS 5.15
+2026-03-10 10:51:07 | INFO     | Fetching BS 5.16 → https://vedabase.io/en/library/bs/5/16/
+2026-03-10 10:51:07 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/16/
+2026-03-10 10:51:08 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_16.html
+2026-03-10 10:51:08 | DEBUG    |   ✓ BS 5.16
+2026-03-10 10:51:08 | INFO     | Fetching BS 5.17 → https://vedabase.io/en/library/bs/5/17/
+2026-03-10 10:51:08 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/17/
+2026-03-10 10:51:10 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_17.html
+2026-03-10 10:51:10 | DEBUG    |   ✓ BS 5.17
+2026-03-10 10:51:10 | INFO     | Fetching BS 5.18 → https://vedabase.io/en/library/bs/5/18/
+2026-03-10 10:51:10 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/18/
+2026-03-10 10:51:11 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_18.html
+2026-03-10 10:51:11 | DEBUG    |   ✓ BS 5.18
+2026-03-10 10:51:11 | INFO     | Fetching BS 5.19 → https://vedabase.io/en/library/bs/5/19/
+2026-03-10 10:51:11 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/19/
+2026-03-10 10:51:13 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_19.html
+2026-03-10 10:51:13 | DEBUG    |   ✓ BS 5.19
+2026-03-10 10:51:13 | INFO     | Fetching BS 5.20 → https://vedabase.io/en/library/bs/5/20/
+2026-03-10 10:51:13 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/20/
+2026-03-10 10:51:14 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_20.html
+2026-03-10 10:51:14 | DEBUG    |   ✓ BS 5.20
+2026-03-10 10:51:14 | INFO     | Fetching BS 5.21 → https://vedabase.io/en/library/bs/5/21/
+2026-03-10 10:51:14 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/21/
+2026-03-10 10:51:16 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_21.html
+2026-03-10 10:51:16 | DEBUG    |   ✓ BS 5.21
+2026-03-10 10:51:16 | INFO     | Fetching BS 5.22 → https://vedabase.io/en/library/bs/5/22/
+2026-03-10 10:51:16 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/22/
+2026-03-10 10:51:17 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_22.html
+2026-03-10 10:51:17 | DEBUG    |   ✓ BS 5.22
+2026-03-10 10:51:17 | INFO     | Fetching BS 5.23 → https://vedabase.io/en/library/bs/5/23/
+2026-03-10 10:51:17 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/23/
+2026-03-10 10:51:19 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_23.html
+2026-03-10 10:51:19 | DEBUG    |   ✓ BS 5.23
+2026-03-10 10:51:19 | INFO     | Fetching BS 5.24 → https://vedabase.io/en/library/bs/5/24/
+2026-03-10 10:51:19 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/24/
+2026-03-10 10:51:20 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_24.html
+2026-03-10 10:51:20 | DEBUG    |   ✓ BS 5.24
+2026-03-10 10:51:20 | INFO     | Fetching BS 5.25 → https://vedabase.io/en/library/bs/5/25/
+2026-03-10 10:51:20 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/25/
+2026-03-10 10:51:22 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_25.html
+2026-03-10 10:51:22 | DEBUG    |   ✓ BS 5.25
+2026-03-10 10:51:22 | INFO     | Fetching BS 5.26 → https://vedabase.io/en/library/bs/5/26/
+2026-03-10 10:51:22 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/26/
+2026-03-10 10:51:23 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_26.html
+2026-03-10 10:51:23 | DEBUG    |   ✓ BS 5.26
+2026-03-10 10:51:23 | INFO     | Fetching BS 5.27 → https://vedabase.io/en/library/bs/5/27/
+2026-03-10 10:51:23 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/27/
+2026-03-10 10:51:25 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_27.html
+2026-03-10 10:51:25 | DEBUG    |   ✓ BS 5.27
+2026-03-10 10:51:25 | INFO     | Fetching BS 5.28 → https://vedabase.io/en/library/bs/5/28/
+2026-03-10 10:51:25 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/28/
+2026-03-10 10:51:26 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_28.html
+2026-03-10 10:51:26 | DEBUG    |   ✓ BS 5.28
+2026-03-10 10:51:26 | INFO     | Fetching BS 5.29 → https://vedabase.io/en/library/bs/5/29/
+2026-03-10 10:51:26 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/29/
+2026-03-10 10:51:28 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_29.html
+2026-03-10 10:51:28 | DEBUG    |   ✓ BS 5.29
+2026-03-10 10:51:28 | INFO     | Fetching BS 5.30 → https://vedabase.io/en/library/bs/5/30/
+2026-03-10 10:51:28 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/30/
+2026-03-10 10:51:29 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_30.html
+2026-03-10 10:51:29 | DEBUG    |   ✓ BS 5.30
+2026-03-10 10:51:29 | INFO     | Fetching BS 5.31 → https://vedabase.io/en/library/bs/5/31/
+2026-03-10 10:51:29 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/31/
+2026-03-10 10:51:31 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_31.html
+2026-03-10 10:51:31 | DEBUG    |   ✓ BS 5.31
+2026-03-10 10:51:31 | INFO     | Fetching BS 5.32 → https://vedabase.io/en/library/bs/5/32/
+2026-03-10 10:51:31 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/32/
+2026-03-10 10:51:32 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_32.html
+2026-03-10 10:51:32 | DEBUG    |   ✓ BS 5.32
+2026-03-10 10:51:32 | INFO     | Fetching BS 5.33 → https://vedabase.io/en/library/bs/5/33/
+2026-03-10 10:51:32 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/33/
+2026-03-10 10:51:34 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_33.html
+2026-03-10 10:51:34 | DEBUG    |   ✓ BS 5.33
+2026-03-10 10:51:34 | INFO     | Fetching BS 5.34 → https://vedabase.io/en/library/bs/5/34/
+2026-03-10 10:51:34 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/34/
+2026-03-10 10:51:35 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_34.html
+2026-03-10 10:51:35 | DEBUG    |   ✓ BS 5.34
+2026-03-10 10:51:35 | INFO     | Fetching BS 5.35 → https://vedabase.io/en/library/bs/5/35/
+2026-03-10 10:51:35 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/35/
+2026-03-10 10:51:37 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_35.html
+2026-03-10 10:51:37 | DEBUG    |   ✓ BS 5.35
+2026-03-10 10:51:37 | INFO     | Fetching BS 5.36 → https://vedabase.io/en/library/bs/5/36/
+2026-03-10 10:51:37 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/36/
+2026-03-10 10:51:38 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_36.html
+2026-03-10 10:51:38 | DEBUG    |   ✓ BS 5.36
+2026-03-10 10:51:38 | INFO     | Fetching BS 5.37 → https://vedabase.io/en/library/bs/5/37/
+2026-03-10 10:51:38 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/37/
+2026-03-10 10:51:40 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_37.html
+2026-03-10 10:51:40 | DEBUG    |   ✓ BS 5.37
+2026-03-10 10:51:40 | INFO     | Fetching BS 5.38 → https://vedabase.io/en/library/bs/5/38/
+2026-03-10 10:51:40 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/38/
+2026-03-10 10:51:41 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_38.html
+2026-03-10 10:51:41 | DEBUG    |   ✓ BS 5.38
+2026-03-10 10:51:41 | INFO     | Fetching BS 5.39 → https://vedabase.io/en/library/bs/5/39/
+2026-03-10 10:51:41 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/39/
+2026-03-10 10:51:43 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_39.html
+2026-03-10 10:51:43 | DEBUG    |   ✓ BS 5.39
+2026-03-10 10:51:43 | INFO     | Fetching BS 5.40 → https://vedabase.io/en/library/bs/5/40/
+2026-03-10 10:51:43 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/40/
+2026-03-10 10:51:44 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_40.html
+2026-03-10 10:51:44 | DEBUG    |   ✓ BS 5.40
+2026-03-10 10:51:44 | INFO     | Fetching BS 5.41 → https://vedabase.io/en/library/bs/5/41/
+2026-03-10 10:51:44 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/41/
+2026-03-10 10:51:46 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_41.html
+2026-03-10 10:51:46 | DEBUG    |   ✓ BS 5.41
+2026-03-10 10:51:46 | INFO     | Fetching BS 5.42 → https://vedabase.io/en/library/bs/5/42/
+2026-03-10 10:51:46 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/42/
+2026-03-10 10:51:47 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_42.html
+2026-03-10 10:51:47 | DEBUG    |   ✓ BS 5.42
+2026-03-10 10:51:47 | INFO     | Fetching BS 5.43 → https://vedabase.io/en/library/bs/5/43/
+2026-03-10 10:51:47 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/43/
+2026-03-10 10:51:49 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_43.html
+2026-03-10 10:51:49 | DEBUG    |   ✓ BS 5.43
+2026-03-10 10:51:49 | INFO     | Fetching BS 5.44 → https://vedabase.io/en/library/bs/5/44/
+2026-03-10 10:51:49 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/44/
+2026-03-10 10:51:50 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_44.html
+2026-03-10 10:51:50 | DEBUG    |   ✓ BS 5.44
+2026-03-10 10:51:50 | INFO     | Fetching BS 5.45 → https://vedabase.io/en/library/bs/5/45/
+2026-03-10 10:51:50 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/45/
+2026-03-10 10:51:52 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_45.html
+2026-03-10 10:51:52 | DEBUG    |   ✓ BS 5.45
+2026-03-10 10:51:52 | INFO     | Fetching BS 5.46 → https://vedabase.io/en/library/bs/5/46/
+2026-03-10 10:51:52 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/46/
+2026-03-10 10:51:54 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_46.html
+2026-03-10 10:51:54 | DEBUG    |   ✓ BS 5.46
+2026-03-10 10:51:54 | INFO     | Fetching BS 5.47 → https://vedabase.io/en/library/bs/5/47/
+2026-03-10 10:51:54 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/47/
+2026-03-10 10:51:56 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_47.html
+2026-03-10 10:51:56 | DEBUG    |   ✓ BS 5.47
+2026-03-10 10:51:56 | INFO     | Fetching BS 5.48 → https://vedabase.io/en/library/bs/5/48/
+2026-03-10 10:51:56 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/48/
+2026-03-10 10:51:57 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_48.html
+2026-03-10 10:51:57 | DEBUG    |   ✓ BS 5.48
+2026-03-10 10:51:57 | INFO     | Fetching BS 5.49 → https://vedabase.io/en/library/bs/5/49/
+2026-03-10 10:51:57 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/49/
+2026-03-10 10:51:58 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_49.html
+2026-03-10 10:51:58 | DEBUG    |   ✓ BS 5.49
+2026-03-10 10:51:58 | INFO     | Fetching BS 5.50 → https://vedabase.io/en/library/bs/5/50/
+2026-03-10 10:51:58 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/50/
+2026-03-10 10:52:00 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_50.html
+2026-03-10 10:52:00 | DEBUG    |   ✓ BS 5.50
+2026-03-10 10:52:00 | INFO     | Fetching BS 5.51 → https://vedabase.io/en/library/bs/5/51/
+2026-03-10 10:52:00 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/51/
+2026-03-10 10:52:01 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_51.html
+2026-03-10 10:52:02 | DEBUG    |   ✓ BS 5.51
+2026-03-10 10:52:02 | INFO     | Fetching BS 5.52 → https://vedabase.io/en/library/bs/5/52/
+2026-03-10 10:52:02 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/52/
+2026-03-10 10:52:03 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_52.html
+2026-03-10 10:52:03 | DEBUG    |   ✓ BS 5.52
+2026-03-10 10:52:03 | INFO     | Fetching BS 5.53 → https://vedabase.io/en/library/bs/5/53/
+2026-03-10 10:52:03 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/53/
+2026-03-10 10:52:05 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_53.html
+2026-03-10 10:52:05 | DEBUG    |   ✓ BS 5.53
+2026-03-10 10:52:05 | INFO     | Fetching BS 5.54 → https://vedabase.io/en/library/bs/5/54/
+2026-03-10 10:52:05 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/54/
+2026-03-10 10:52:06 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_54.html
+2026-03-10 10:52:06 | DEBUG    |   ✓ BS 5.54
+2026-03-10 10:52:06 | INFO     | Fetching BS 5.55 → https://vedabase.io/en/library/bs/5/55/
+2026-03-10 10:52:06 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/55/
+2026-03-10 10:52:08 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_55.html
+2026-03-10 10:52:08 | DEBUG    |   ✓ BS 5.55
+2026-03-10 10:52:08 | INFO     | Fetching BS 5.56 → https://vedabase.io/en/library/bs/5/56/
+2026-03-10 10:52:08 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/56/
+2026-03-10 10:52:09 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_56.html
+2026-03-10 10:52:09 | DEBUG    |   ✓ BS 5.56
+2026-03-10 10:52:09 | INFO     | Fetching BS 5.57 → https://vedabase.io/en/library/bs/5/57/
+2026-03-10 10:52:09 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/57/
+2026-03-10 10:52:10 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_57.html
+2026-03-10 10:52:10 | DEBUG    |   ✓ BS 5.57
+2026-03-10 10:52:10 | INFO     | Fetching BS 5.58 → https://vedabase.io/en/library/bs/5/58/
+2026-03-10 10:52:10 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/58/
+2026-03-10 10:52:12 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_58.html
+2026-03-10 10:52:12 | DEBUG    |   ✓ BS 5.58
+2026-03-10 10:52:12 | INFO     | Fetching BS 5.59 → https://vedabase.io/en/library/bs/5/59/
+2026-03-10 10:52:12 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/59/
+2026-03-10 10:52:14 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_59.html
+2026-03-10 10:52:14 | DEBUG    |   ✓ BS 5.59
+2026-03-10 10:52:14 | INFO     | Fetching BS 5.60 → https://vedabase.io/en/library/bs/5/60/
+2026-03-10 10:52:14 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/60/
+2026-03-10 10:52:15 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_60.html
+2026-03-10 10:52:15 | DEBUG    |   ✓ BS 5.60
+2026-03-10 10:52:15 | INFO     | Fetching BS 5.61 → https://vedabase.io/en/library/bs/5/61/
+2026-03-10 10:52:15 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/61/
+2026-03-10 10:52:17 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_61.html
+2026-03-10 10:52:17 | DEBUG    |   ✓ BS 5.61
+2026-03-10 10:52:17 | INFO     | Fetching BS 5.62 → https://vedabase.io/en/library/bs/5/62/
+2026-03-10 10:52:17 | DEBUG    | HTTP fetch: https://vedabase.io/en/library/bs/5/62/
+2026-03-10 10:52:18 | DEBUG    | Saved raw HTML → data/raw\bs\bs_5_62.html
+2026-03-10 10:52:18 | DEBUG    |   ✓ BS 5.62
+2026-03-10 10:52:18 | INFO     | 
+============================================================
+2026-03-10 10:52:18 | INFO     | Brahma Samhita scrape complete.
+2026-03-10 10:52:18 | INFO     |   Pages scraped : 62
+2026-03-10 10:52:18 | INFO     |   Failed        : 0
+2026-03-10 10:52:18 | INFO     | ============================================================
+
+2026-03-10 10:52:18 | INFO     | Saved 62 records → data/scraped\bs_raw.json
+2026-03-10 10:52:18 | INFO     | ============================================================
+2026-03-10 10:52:18 | INFO     | ALL SCRAPING COMPLETE
+2026-03-10 10:52:18 | INFO     |   Brahma Samhita                      62 records
+2026-03-10 10:52:18 | INFO     | ============================================================

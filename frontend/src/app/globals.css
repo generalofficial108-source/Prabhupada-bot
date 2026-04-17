@@ -1,0 +1,68 @@
+/* 
+  globals.css
+  
+  This file is the Tailwind entry point for Next.js JIT compilation.
+  Tailwind reads this, scans your `content` paths, and generates all
+  utility classes (including custom saffron colors) at build/dev time.
+  The compiled output is injected automatically by Next.js — you do NOT
+  need to import styles.css from /public separately.
+  
+  If you previously had a static styles.css in /public, it is now
+  superseded by this JIT pipeline. You can delete /public/styles.css
+  or leave it — it won't be loaded unless you explicitly import it.
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Custom component classes ───────────────────────────── */
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  body {
+    @apply text-slate-800 antialiased;
+    background:
+      radial-gradient(1200px 600px at 10% -20%, rgba(251, 191, 36, 0.16), transparent 70%),
+      radial-gradient(1000px 500px at 90% -30%, rgba(56, 189, 248, 0.10), transparent 70%),
+      linear-gradient(180deg, #fffaf0 0%, #fff 45%, #f8fafc 100%);
+  }
+}
+
+@layer components {
+  /* Prose inside answer cards — gives markdown output sensible spacing */
+  .prose-answer p      { @apply mb-3 leading-relaxed; }
+  .prose-answer ul     { @apply list-disc pl-5 mb-3 space-y-1; }
+  .prose-answer ol     { @apply list-decimal pl-5 mb-3 space-y-1; }
+  .prose-answer strong { @apply font-semibold; }
+  .prose-answer h2     { @apply text-base font-bold mt-4 mb-2; }
+  .prose-answer h3     { @apply text-sm font-semibold mt-3 mb-1; }
+  .prose-answer blockquote {
+    @apply border-l-4 border-saffron-300 pl-3 italic text-[#4a2e0e] my-3;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in  { animation: fadeIn  0.5s ease-in-out; }
+  .animate-slide-up { animation: slideUp 0.4s ease-out; }
+  .animate-pulse-soft { animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Keyframes must live outside @layer so they are always emitted */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
