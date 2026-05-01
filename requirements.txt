@@ -9,7 +9,7 @@ slowapi==0.1.9
 pydantic==2.7.4
 
 # Retrieval
-chromadb==0.5.3
+chromadb==0.4.24
 sentence-transformers==3.0.1
 
 # LLM
